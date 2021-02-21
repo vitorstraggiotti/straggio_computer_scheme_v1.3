@@ -1,0 +1,11 @@
+
+generate SSH key. Use github email:
+# ssh-keygen -t ed25519 -C "your_email@example.com"
+
+verify if SSH agent is runing and add key to SSH agent:
+# eval "$(ssh-agent -s)"
+# ssh-add <path_to_key>  (Ex: ssh-add ~/.ssh/id_ed25519)
+
+add public key on github account:
+Settings > SSH and GPG key > New SSH key
+
