@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A1 33110 23386
 encoding utf-8
-Sheet 2 35
+Sheet 2 39
 Title "Work registers"
 Date "2021-02-21"
 Rev "v1.3"
@@ -89,10 +89,6 @@ Wire Wire Line
 	6050 7050 6200 7050
 Wire Wire Line
 	6050 6950 6150 6950
-Text Notes 5350 8950 0    50   ~ 0
-sch = \npcb = 
-Text Notes 5350 7400 0    50   ~ 0
-sch = \npcb = 
 $Sheet
 S 5050 8000 1000 1150
 U 6033213D
@@ -349,10 +345,6 @@ Wire Wire Line
 	6050 10150 6200 10150
 Wire Wire Line
 	6050 10050 6150 10050
-Text Notes 5350 12050 0    50   ~ 0
-sch = \npcb = 
-Text Notes 5350 10500 0    50   ~ 0
-sch = \npcb = 
 $Sheet
 S 5050 11100 1000 1150
 U 60775565
@@ -581,10 +573,6 @@ Wire Wire Line
 	9250 7050 9400 7050
 Wire Wire Line
 	9250 6950 9350 6950
-Text Notes 8550 8950 0    50   ~ 0
-sch = \npcb = 
-Text Notes 8550 7400 0    50   ~ 0
-sch = \npcb = 
 $Sheet
 S 8250 8000 1000 1150
 U 60971BC0
@@ -713,10 +701,6 @@ Wire Wire Line
 	9250 10150 9400 10150
 Wire Wire Line
 	9250 10050 9350 10050
-Text Notes 8550 12050 0    50   ~ 0
-sch = \npcb = 
-Text Notes 8550 10500 0    50   ~ 0
-sch = \npcb = 
 $Sheet
 S 8250 11100 1000 1150
 U 60971C23
@@ -945,10 +929,6 @@ Wire Wire Line
 	12450 7050 12600 7050
 Wire Wire Line
 	12450 6950 12550 6950
-Text Notes 11750 8950 0    50   ~ 0
-sch = \npcb = 
-Text Notes 11750 7400 0    50   ~ 0
-sch = \npcb = 
 $Sheet
 S 11450 8000 1000 1150
 U 609BA2DC
@@ -1077,10 +1057,6 @@ Wire Wire Line
 	12450 10150 12600 10150
 Wire Wire Line
 	12450 10050 12550 10050
-Text Notes 11750 12050 0    50   ~ 0
-sch = \npcb = 
-Text Notes 11750 10500 0    50   ~ 0
-sch = \npcb = 
 $Sheet
 S 11450 11100 1000 1150
 U 609BA33F
@@ -1309,10 +1285,6 @@ Wire Wire Line
 	15650 7050 15800 7050
 Wire Wire Line
 	15650 6950 15750 6950
-Text Notes 14950 8950 0    50   ~ 0
-sch = \npcb = 
-Text Notes 14950 7400 0    50   ~ 0
-sch = \npcb = 
 $Sheet
 S 14650 8000 1000 1150
 U 609BA3E8
@@ -1441,10 +1413,6 @@ Wire Wire Line
 	15650 10150 15800 10150
 Wire Wire Line
 	15650 10050 15750 10050
-Text Notes 14950 12050 0    50   ~ 0
-sch = \npcb = 
-Text Notes 14950 10500 0    50   ~ 0
-sch = \npcb = 
 $Sheet
 S 14650 11100 1000 1150
 U 609BA44B
@@ -1673,10 +1641,6 @@ Wire Wire Line
 	18850 7050 19000 7050
 Wire Wire Line
 	18850 6950 18950 6950
-Text Notes 18150 8950 0    50   ~ 0
-sch = \npcb = 
-Text Notes 18150 7400 0    50   ~ 0
-sch = \npcb = 
 $Sheet
 S 17850 8000 1000 1150
 U 60A12E14
@@ -1805,10 +1769,6 @@ Wire Wire Line
 	18850 10150 19000 10150
 Wire Wire Line
 	18850 10050 18950 10050
-Text Notes 18150 12050 0    50   ~ 0
-sch = \npcb = 
-Text Notes 18150 10500 0    50   ~ 0
-sch = \npcb = 
 $Sheet
 S 17850 11100 1000 1150
 U 60A12E77
@@ -2037,10 +1997,6 @@ Wire Wire Line
 	22050 7050 22200 7050
 Wire Wire Line
 	22050 6950 22150 6950
-Text Notes 21350 8950 0    50   ~ 0
-sch = \npcb = 
-Text Notes 21350 7400 0    50   ~ 0
-sch = \npcb = 
 $Sheet
 S 21050 8000 1000 1150
 U 60A12F20
@@ -2169,10 +2125,6 @@ Wire Wire Line
 	22050 10150 22200 10150
 Wire Wire Line
 	22050 10050 22150 10050
-Text Notes 21350 12050 0    50   ~ 0
-sch = \npcb = 
-Text Notes 21350 10500 0    50   ~ 0
-sch = \npcb = 
 $Sheet
 S 21050 11100 1000 1150
 U 60A12F83
@@ -2401,10 +2353,6 @@ Wire Wire Line
 	25250 7050 25400 7050
 Wire Wire Line
 	25250 6950 25350 6950
-Text Notes 24550 8950 0    50   ~ 0
-sch = \npcb = 
-Text Notes 24550 7400 0    50   ~ 0
-sch = \npcb = 
 $Sheet
 S 24250 6600 1000 1150
 U 60A13040
@@ -2509,10 +2457,6 @@ Wire Wire Line
 	25250 10150 25400 10150
 Wire Wire Line
 	25250 10050 25350 10050
-Text Notes 24550 12050 0    50   ~ 0
-sch = \npcb = 
-Text Notes 24550 10500 0    50   ~ 0
-sch = \npcb = 
 $Sheet
 S 24250 11100 1000 1150
 U 60A1308F
@@ -2741,10 +2685,6 @@ Wire Wire Line
 	28450 7050 28600 7050
 Wire Wire Line
 	28450 6950 28550 6950
-Text Notes 27750 8950 0    50   ~ 0
-sch = \npcb = 
-Text Notes 27750 7400 0    50   ~ 0
-sch = \npcb = 
 $Sheet
 S 27450 8000 1000 1150
 U 60A13138
@@ -2768,30 +2708,6 @@ F16 "Out_4" T R 28450 8750 50
 F17 "Out_5" T R 28450 8850 50 
 F18 "Out_6" T R 28450 8950 50 
 F19 "Out_7" T R 28450 9050 50 
-$EndSheet
-$Sheet
-S 27450 6600 1000 1150
-U 60A1314C
-F0 "R14 Low" 50
-F1 "full 8bit register.sch" 50
-F2 "Set_register" I L 27450 6700 50 
-F3 "Enable_register" I L 27450 6800 50 
-F4 "In_0" I L 27450 6950 50 
-F5 "In_1" I L 27450 7050 50 
-F6 "In_2" I L 27450 7150 50 
-F7 "In_3" I L 27450 7250 50 
-F8 "In_4" I L 27450 7350 50 
-F9 "In_5" I L 27450 7450 50 
-F10 "In_6" I L 27450 7550 50 
-F11 "In_7" I L 27450 7650 50 
-F12 "Out_0" T R 28450 6950 50 
-F13 "Out_1" T R 28450 7050 50 
-F14 "Out_2" T R 28450 7150 50 
-F15 "Out_3" T R 28450 7250 50 
-F16 "Out_4" T R 28450 7350 50 
-F17 "Out_5" T R 28450 7450 50 
-F18 "Out_6" T R 28450 7550 50 
-F19 "Out_7" T R 28450 7650 50 
 $EndSheet
 Wire Wire Line
 	27350 8100 26200 8100
@@ -2873,10 +2789,8 @@ Wire Wire Line
 	28450 10150 28600 10150
 Wire Wire Line
 	28450 10050 28550 10050
-Text Notes 27750 12050 0    50   ~ 0
-sch = \npcb = 
-Text Notes 27750 10500 0    50   ~ 0
-sch = \npcb = 
+Text Notes 29500 7400 0    50   ~ 0
+sch = OK\npcb = 
 $Sheet
 S 27450 11100 1000 1150
 U 60A1319B
@@ -4563,4 +4477,30 @@ F17 "Out_5" T R 25250 8850 50
 F18 "Out_6" T R 25250 8950 50 
 F19 "Out_7" T R 25250 9050 50 
 $EndSheet
+$Sheet
+S 27450 6600 1000 1150
+U 60A1314C
+F0 "R14 Low" 50
+F1 "full 8bit register.sch" 50
+F2 "Set_register" I L 27450 6700 50 
+F3 "Enable_register" I L 27450 6800 50 
+F4 "In_0" I L 27450 6950 50 
+F5 "In_1" I L 27450 7050 50 
+F6 "In_2" I L 27450 7150 50 
+F7 "In_3" I L 27450 7250 50 
+F8 "In_4" I L 27450 7350 50 
+F9 "In_5" I L 27450 7450 50 
+F10 "In_6" I L 27450 7550 50 
+F11 "In_7" I L 27450 7650 50 
+F12 "Out_0" T R 28450 6950 50 
+F13 "Out_1" T R 28450 7050 50 
+F14 "Out_2" T R 28450 7150 50 
+F15 "Out_3" T R 28450 7250 50 
+F16 "Out_4" T R 28450 7350 50 
+F17 "Out_5" T R 28450 7450 50 
+F18 "Out_6" T R 28450 7550 50 
+F19 "Out_7" T R 28450 7650 50 
+$EndSheet
+Text Notes 29500 7250 0    50   ~ 0
+full 8bit register
 $EndSCHEMATC
