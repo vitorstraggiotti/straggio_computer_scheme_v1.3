@@ -1,0 +1,2761 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A3 16535 11693
+encoding utf-8
+Sheet 41 48
+Title "16bit filter"
+Date "2021-02-24"
+Rev "V1.3"
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 "Author: Vitor Henrique Andrade Helfensteller Straggiotti Silva"
+$EndDescr
+Text HLabel 3700 2050 0    50   Input ~ 0
+In_0
+Text HLabel 3700 2150 0    50   Input ~ 0
+In_1
+Text HLabel 3700 2250 0    50   Input ~ 0
+In_2
+Text HLabel 3700 2350 0    50   Input ~ 0
+In_3
+Text HLabel 3700 2450 0    50   Input ~ 0
+In_4
+Text HLabel 3700 2550 0    50   Input ~ 0
+In_5
+Text HLabel 3700 2650 0    50   Input ~ 0
+In_6
+Text HLabel 3700 2750 0    50   Input ~ 0
+In_7
+Text HLabel 3700 2850 0    50   Input ~ 0
+In_8
+Text HLabel 3700 2950 0    50   Input ~ 0
+In_9
+Text HLabel 3700 3050 0    50   Input ~ 0
+In_10
+Text HLabel 3700 3150 0    50   Input ~ 0
+In_11
+Text HLabel 3700 3250 0    50   Input ~ 0
+In_12
+Text HLabel 3700 3350 0    50   Input ~ 0
+In_13
+Text HLabel 3700 3450 0    50   Input ~ 0
+In_14
+Text HLabel 3700 3550 0    50   Input ~ 0
+In_15
+Text HLabel 12500 2050 2    50   Output ~ 0
+Out_0
+Text HLabel 2900 4400 0    50   Input ~ 0
+Enable_filter_"1"
+Text HLabel 12500 2150 2    50   Output ~ 0
+Out_1
+Text HLabel 12500 2250 2    50   Output ~ 0
+Out_2
+Text HLabel 12500 2350 2    50   Output ~ 0
+Out_3
+Text HLabel 12500 2450 2    50   Output ~ 0
+Out_4
+Text HLabel 12500 2550 2    50   Output ~ 0
+Out_5
+Text HLabel 12500 2650 2    50   Output ~ 0
+Out_6
+Text HLabel 12500 2750 2    50   Output ~ 0
+Out_7
+Text HLabel 12500 2850 2    50   Output ~ 0
+Out_8
+Text HLabel 12500 2950 2    50   Output ~ 0
+Out_9
+Text HLabel 12500 3050 2    50   Output ~ 0
+Out_10
+Text HLabel 12500 3150 2    50   Output ~ 0
+Out_11
+Text HLabel 12500 3250 2    50   Output ~ 0
+Out_12
+Text HLabel 12500 3350 2    50   Output ~ 0
+Out_13
+Text HLabel 12500 3450 2    50   Output ~ 0
+Out_14
+Text HLabel 12500 3550 2    50   Output ~ 0
+Out_15
+$Comp
+L Transistor_FET:2N7000 Q?
+U 1 1 619045E0
+P 4600 4400
+F 0 "Q?" H 4700 4550 50  0000 L CNN
+F 1 "2N7000" H 4804 4355 50  0001 L CNN
+F 2 "Package_TO_SOT_THT:TO-92_Inline" H 4800 4325 50  0001 L CIN
+F 3 "https://www.onsemi.com/pub/Collateral/NDS7002A-D.PDF" H 4600 4400 50  0001 L CNN
+	1    4600 4400
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 61904FD3
+P 4700 3950
+F 0 "R?" H 4770 3996 50  0000 L CNN
+F 1 "R" H 4770 3905 50  0000 L CNN
+F 2 "" V 4630 3950 50  0001 C CNN
+F 3 "~" H 4700 3950 50  0001 C CNN
+	1    4700 3950
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:VDD #PWR?
+U 1 1 61905345
+P 5700 3800
+F 0 "#PWR?" H 5700 3650 50  0001 C CNN
+F 1 "VDD" H 5715 3973 50  0000 C CNN
+F 2 "" H 5700 3800 50  0001 C CNN
+F 3 "" H 5700 3800 50  0001 C CNN
+	1    5700 3800
+	-1   0    0    1   
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 61905718
+P 5600 4650
+F 0 "#PWR?" H 5600 4400 50  0001 C CNN
+F 1 "GND" H 5605 4477 50  0000 C CNN
+F 2 "" H 5600 4650 50  0001 C CNN
+F 3 "" H 5600 4650 50  0001 C CNN
+	1    5600 4650
+	-1   0    0    1   
+$EndComp
+$Comp
+L Transistor_FET:2N7000 Q?
+U 1 1 61905C96
+P 5200 4400
+F 0 "Q?" H 5300 4550 50  0000 L CNN
+F 1 "2N7000" H 5404 4355 50  0001 L CNN
+F 2 "Package_TO_SOT_THT:TO-92_Inline" H 5400 4325 50  0001 L CIN
+F 3 "https://www.onsemi.com/pub/Collateral/NDS7002A-D.PDF" H 5200 4400 50  0001 L CNN
+	1    5200 4400
+	1    0    0    -1  
+$EndComp
+$Comp
+L Transistor_FET:2N7000 Q?
+U 1 1 61906ADC
+P 5800 4400
+F 0 "Q?" H 5900 4550 50  0000 L CNN
+F 1 "2N7000" H 6004 4355 50  0001 L CNN
+F 2 "Package_TO_SOT_THT:TO-92_Inline" H 6000 4325 50  0001 L CIN
+F 3 "https://www.onsemi.com/pub/Collateral/NDS7002A-D.PDF" H 5800 4400 50  0001 L CNN
+	1    5800 4400
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 61908D50
+P 5900 3950
+F 0 "R?" H 5970 3996 50  0000 L CNN
+F 1 "R" H 5970 3905 50  0000 L CNN
+F 2 "" V 5830 3950 50  0001 C CNN
+F 3 "~" H 5900 3950 50  0001 C CNN
+	1    5900 3950
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4700 3800 4700 3750
+Wire Wire Line
+	4700 3750 5700 3750
+Wire Wire Line
+	5900 3750 5900 3800
+Wire Wire Line
+	4700 4100 4700 4150
+Wire Wire Line
+	4700 4150 5300 4150
+Wire Wire Line
+	5300 4150 5300 4200
+Connection ~ 4700 4150
+Wire Wire Line
+	4700 4150 4700 4200
+Wire Wire Line
+	5300 4150 5550 4150
+Wire Wire Line
+	5550 4150 5550 4400
+Wire Wire Line
+	5550 4400 5600 4400
+Connection ~ 5300 4150
+Wire Wire Line
+	5900 4100 5900 4150
+Wire Wire Line
+	4700 4600 4700 4700
+Wire Wire Line
+	4700 4700 5300 4700
+Wire Wire Line
+	5900 4700 5900 4600
+Wire Wire Line
+	5300 4600 5300 4700
+Connection ~ 5300 4700
+Wire Wire Line
+	5300 4700 5600 4700
+Wire Wire Line
+	5000 4400 4950 4400
+Wire Wire Line
+	4950 4400 4950 4650
+Wire Wire Line
+	5700 3800 5700 3750
+Connection ~ 5700 3750
+Wire Wire Line
+	5700 3750 5900 3750
+Wire Wire Line
+	5600 4650 5600 4700
+Connection ~ 5600 4700
+Wire Wire Line
+	5600 4700 5900 4700
+Wire Notes Line
+	6150 4750 6150 3700
+Wire Notes Line
+	6150 3700 4350 3700
+Text Notes 4400 3800 0    50   ~ 0
+OR
+Connection ~ 5900 4150
+Wire Wire Line
+	5900 4150 5900 4200
+$Comp
+L Transistor_FET:2N7000 Q?
+U 1 1 61918610
+P 4600 5450
+F 0 "Q?" H 4700 5600 50  0000 L CNN
+F 1 "2N7000" H 4804 5405 50  0001 L CNN
+F 2 "Package_TO_SOT_THT:TO-92_Inline" H 4800 5375 50  0001 L CIN
+F 3 "https://www.onsemi.com/pub/Collateral/NDS7002A-D.PDF" H 4600 5450 50  0001 L CNN
+	1    4600 5450
+	1    0    0    -1  
+$EndComp
+$Comp
+L Transistor_FET:2N7000 Q?
+U 1 1 619199A7
+P 4600 5900
+F 0 "Q?" H 4700 6050 50  0000 L CNN
+F 1 "2N7000" H 4804 5855 50  0001 L CNN
+F 2 "Package_TO_SOT_THT:TO-92_Inline" H 4800 5825 50  0001 L CIN
+F 3 "https://www.onsemi.com/pub/Collateral/NDS7002A-D.PDF" H 4600 5900 50  0001 L CNN
+	1    4600 5900
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 6191B270
+P 4700 5000
+F 0 "R?" H 4770 5046 50  0000 L CNN
+F 1 "R" H 4770 4955 50  0000 L CNN
+F 2 "" V 4630 5000 50  0001 C CNN
+F 3 "~" H 4700 5000 50  0001 C CNN
+	1    4700 5000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Transistor_FET:2N7000 Q?
+U 1 1 6191BF53
+P 5200 5450
+F 0 "Q?" H 5300 5600 50  0000 L CNN
+F 1 "2N7000" H 5404 5405 50  0001 L CNN
+F 2 "Package_TO_SOT_THT:TO-92_Inline" H 5400 5375 50  0001 L CIN
+F 3 "https://www.onsemi.com/pub/Collateral/NDS7002A-D.PDF" H 5200 5450 50  0001 L CNN
+	1    5200 5450
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 6191C706
+P 5300 5000
+F 0 "R?" H 5370 5046 50  0000 L CNN
+F 1 "R" H 5370 4955 50  0000 L CNN
+F 2 "" V 5230 5000 50  0001 C CNN
+F 3 "~" H 5300 5000 50  0001 C CNN
+	1    5300 5000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4700 4850 4700 4800
+Wire Wire Line
+	4700 4800 5150 4800
+Wire Wire Line
+	5300 4800 5300 4850
+Wire Wire Line
+	4700 5150 4700 5200
+Wire Wire Line
+	4700 5200 4950 5200
+Wire Wire Line
+	4950 5200 4950 5450
+Wire Wire Line
+	4950 5450 5000 5450
+Connection ~ 4700 5200
+Wire Wire Line
+	4700 5200 4700 5250
+Wire Wire Line
+	5300 5150 5300 5200
+Wire Wire Line
+	4700 6100 4700 6150
+Wire Wire Line
+	4700 6150 5150 6150
+Wire Wire Line
+	5300 6150 5300 5650
+Wire Wire Line
+	4700 5650 4700 5700
+$Comp
+L power:GND #PWR?
+U 1 1 61922161
+P 5150 6100
+F 0 "#PWR?" H 5150 5850 50  0001 C CNN
+F 1 "GND" H 5155 5927 50  0000 C CNN
+F 2 "" H 5150 6100 50  0001 C CNN
+F 3 "" H 5150 6100 50  0001 C CNN
+	1    5150 6100
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	5150 6100 5150 6150
+Connection ~ 5150 6150
+Wire Wire Line
+	5150 6150 5300 6150
+$Comp
+L power:VDD #PWR?
+U 1 1 619242E1
+P 5150 4850
+F 0 "#PWR?" H 5150 4700 50  0001 C CNN
+F 1 "VDD" H 5165 5023 50  0000 C CNN
+F 2 "" H 5150 4850 50  0001 C CNN
+F 3 "" H 5150 4850 50  0001 C CNN
+	1    5150 4850
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	5150 4850 5150 4800
+Connection ~ 5150 4800
+Wire Wire Line
+	5150 4800 5300 4800
+Wire Notes Line
+	4350 6200 5550 6200
+Text Notes 4400 4850 0    50   ~ 0
+AND
+$Comp
+L Transistor_FET:2N7000 Q?
+U 1 1 61930D7E
+P 7100 4400
+F 0 "Q?" H 7200 4550 50  0000 L CNN
+F 1 "2N7000" H 7304 4355 50  0001 L CNN
+F 2 "Package_TO_SOT_THT:TO-92_Inline" H 7300 4325 50  0001 L CIN
+F 3 "https://www.onsemi.com/pub/Collateral/NDS7002A-D.PDF" H 7100 4400 50  0001 L CNN
+	1    7100 4400
+	1    0    0    -1  
+$EndComp
+$Comp
+L Transistor_FET:2N7000 Q?
+U 1 1 61930D84
+P 7100 4850
+F 0 "Q?" H 7200 5000 50  0000 L CNN
+F 1 "2N7000" H 7304 4805 50  0001 L CNN
+F 2 "Package_TO_SOT_THT:TO-92_Inline" H 7300 4775 50  0001 L CIN
+F 3 "https://www.onsemi.com/pub/Collateral/NDS7002A-D.PDF" H 7100 4850 50  0001 L CNN
+	1    7100 4850
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 61930D8A
+P 7200 3950
+F 0 "R?" H 7270 3996 50  0000 L CNN
+F 1 "R" H 7270 3905 50  0000 L CNN
+F 2 "" V 7130 3950 50  0001 C CNN
+F 3 "~" H 7200 3950 50  0001 C CNN
+	1    7200 3950
+	1    0    0    -1  
+$EndComp
+$Comp
+L Transistor_FET:2N7000 Q?
+U 1 1 61930D90
+P 7700 4400
+F 0 "Q?" H 7800 4550 50  0000 L CNN
+F 1 "2N7000" H 7904 4355 50  0001 L CNN
+F 2 "Package_TO_SOT_THT:TO-92_Inline" H 7900 4325 50  0001 L CIN
+F 3 "https://www.onsemi.com/pub/Collateral/NDS7002A-D.PDF" H 7700 4400 50  0001 L CNN
+	1    7700 4400
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 61930D96
+P 7800 3950
+F 0 "R?" H 7870 3996 50  0000 L CNN
+F 1 "R" H 7870 3905 50  0000 L CNN
+F 2 "" V 7730 3950 50  0001 C CNN
+F 3 "~" H 7800 3950 50  0001 C CNN
+	1    7800 3950
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7200 3800 7200 3750
+Wire Wire Line
+	7200 3750 7650 3750
+Wire Wire Line
+	7800 3750 7800 3800
+Wire Wire Line
+	7200 4100 7200 4150
+Wire Wire Line
+	7200 4150 7450 4150
+Wire Wire Line
+	7450 4150 7450 4400
+Wire Wire Line
+	7450 4400 7500 4400
+Connection ~ 7200 4150
+Wire Wire Line
+	7200 4150 7200 4200
+Wire Wire Line
+	7800 4100 7800 4150
+Wire Wire Line
+	7200 5050 7200 5100
+Wire Wire Line
+	7200 5100 7650 5100
+Wire Wire Line
+	7800 5100 7800 4600
+Wire Wire Line
+	7200 4600 7200 4650
+$Comp
+L power:GND #PWR?
+U 1 1 61930DAA
+P 7650 5050
+F 0 "#PWR?" H 7650 4800 50  0001 C CNN
+F 1 "GND" H 7655 4877 50  0000 C CNN
+F 2 "" H 7650 5050 50  0001 C CNN
+F 3 "" H 7650 5050 50  0001 C CNN
+	1    7650 5050
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	7650 5050 7650 5100
+Connection ~ 7650 5100
+Wire Wire Line
+	7650 5100 7800 5100
+$Comp
+L power:VDD #PWR?
+U 1 1 61930DB3
+P 7650 3800
+F 0 "#PWR?" H 7650 3650 50  0001 C CNN
+F 1 "VDD" H 7665 3973 50  0000 C CNN
+F 2 "" H 7650 3800 50  0001 C CNN
+F 3 "" H 7650 3800 50  0001 C CNN
+	1    7650 3800
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	7650 3800 7650 3750
+Connection ~ 7650 3750
+Wire Wire Line
+	7650 3750 7800 3750
+Wire Notes Line
+	8050 3700 6850 3700
+Wire Notes Line
+	6850 5150 8050 5150
+Text Notes 6900 3800 0    50   ~ 0
+AND
+Wire Notes Line
+	4350 4750 6150 4750
+$Comp
+L Transistor_FET:2N7000 Q?
+U 1 1 6193BA02
+P 4600 6900
+F 0 "Q?" H 4700 7050 50  0000 L CNN
+F 1 "2N7000" H 4804 6855 50  0001 L CNN
+F 2 "Package_TO_SOT_THT:TO-92_Inline" H 4800 6825 50  0001 L CIN
+F 3 "https://www.onsemi.com/pub/Collateral/NDS7002A-D.PDF" H 4600 6900 50  0001 L CNN
+	1    4600 6900
+	1    0    0    -1  
+$EndComp
+$Comp
+L Transistor_FET:2N7000 Q?
+U 1 1 6193BA08
+P 4600 7350
+F 0 "Q?" H 4700 7500 50  0000 L CNN
+F 1 "2N7000" H 4804 7305 50  0001 L CNN
+F 2 "Package_TO_SOT_THT:TO-92_Inline" H 4800 7275 50  0001 L CIN
+F 3 "https://www.onsemi.com/pub/Collateral/NDS7002A-D.PDF" H 4600 7350 50  0001 L CNN
+	1    4600 7350
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 6193BA0E
+P 4700 6450
+F 0 "R?" H 4770 6496 50  0000 L CNN
+F 1 "R" H 4770 6405 50  0000 L CNN
+F 2 "" V 4630 6450 50  0001 C CNN
+F 3 "~" H 4700 6450 50  0001 C CNN
+	1    4700 6450
+	1    0    0    -1  
+$EndComp
+$Comp
+L Transistor_FET:2N7000 Q?
+U 1 1 6193BA14
+P 5200 6900
+F 0 "Q?" H 5300 7050 50  0000 L CNN
+F 1 "2N7000" H 5404 6855 50  0001 L CNN
+F 2 "Package_TO_SOT_THT:TO-92_Inline" H 5400 6825 50  0001 L CIN
+F 3 "https://www.onsemi.com/pub/Collateral/NDS7002A-D.PDF" H 5200 6900 50  0001 L CNN
+	1    5200 6900
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 6193BA1A
+P 5300 6450
+F 0 "R?" H 5370 6496 50  0000 L CNN
+F 1 "R" H 5370 6405 50  0000 L CNN
+F 2 "" V 5230 6450 50  0001 C CNN
+F 3 "~" H 5300 6450 50  0001 C CNN
+	1    5300 6450
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4700 6300 4700 6250
+Wire Wire Line
+	4700 6250 5150 6250
+Wire Wire Line
+	5300 6250 5300 6300
+Wire Wire Line
+	4700 6600 4700 6650
+Wire Wire Line
+	4700 6650 4950 6650
+Wire Wire Line
+	4950 6650 4950 6900
+Wire Wire Line
+	4950 6900 5000 6900
+Connection ~ 4700 6650
+Wire Wire Line
+	4700 6650 4700 6700
+Wire Wire Line
+	5300 6600 5300 6650
+Wire Wire Line
+	4700 7550 4700 7600
+Wire Wire Line
+	4700 7600 5150 7600
+Wire Wire Line
+	5300 7600 5300 7100
+Wire Wire Line
+	4700 7100 4700 7150
+$Comp
+L power:GND #PWR?
+U 1 1 6193BA2E
+P 5150 7550
+F 0 "#PWR?" H 5150 7300 50  0001 C CNN
+F 1 "GND" H 5155 7377 50  0000 C CNN
+F 2 "" H 5150 7550 50  0001 C CNN
+F 3 "" H 5150 7550 50  0001 C CNN
+	1    5150 7550
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	5150 7550 5150 7600
+Connection ~ 5150 7600
+Wire Wire Line
+	5150 7600 5300 7600
+$Comp
+L power:VDD #PWR?
+U 1 1 6193BA37
+P 5150 6300
+F 0 "#PWR?" H 5150 6150 50  0001 C CNN
+F 1 "VDD" H 5165 6473 50  0000 C CNN
+F 2 "" H 5150 6300 50  0001 C CNN
+F 3 "" H 5150 6300 50  0001 C CNN
+	1    5150 6300
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	5150 6300 5150 6250
+Connection ~ 5150 6250
+Wire Wire Line
+	5150 6250 5300 6250
+Wire Notes Line
+	4350 7650 5550 7650
+Text Notes 4400 6300 0    50   ~ 0
+AND
+$Comp
+L Transistor_FET:2N7000 Q?
+U 1 1 61946F00
+P 4600 8350
+F 0 "Q?" H 4700 8500 50  0000 L CNN
+F 1 "2N7000" H 4804 8305 50  0001 L CNN
+F 2 "Package_TO_SOT_THT:TO-92_Inline" H 4800 8275 50  0001 L CIN
+F 3 "https://www.onsemi.com/pub/Collateral/NDS7002A-D.PDF" H 4600 8350 50  0001 L CNN
+	1    4600 8350
+	1    0    0    -1  
+$EndComp
+$Comp
+L Transistor_FET:2N7000 Q?
+U 1 1 61946F06
+P 4600 8800
+F 0 "Q?" H 4700 8950 50  0000 L CNN
+F 1 "2N7000" H 4804 8755 50  0001 L CNN
+F 2 "Package_TO_SOT_THT:TO-92_Inline" H 4800 8725 50  0001 L CIN
+F 3 "https://www.onsemi.com/pub/Collateral/NDS7002A-D.PDF" H 4600 8800 50  0001 L CNN
+	1    4600 8800
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 61946F0C
+P 4700 7900
+F 0 "R?" H 4770 7946 50  0000 L CNN
+F 1 "R" H 4770 7855 50  0000 L CNN
+F 2 "" V 4630 7900 50  0001 C CNN
+F 3 "~" H 4700 7900 50  0001 C CNN
+	1    4700 7900
+	1    0    0    -1  
+$EndComp
+$Comp
+L Transistor_FET:2N7000 Q?
+U 1 1 61946F12
+P 5200 8350
+F 0 "Q?" H 5300 8500 50  0000 L CNN
+F 1 "2N7000" H 5404 8305 50  0001 L CNN
+F 2 "Package_TO_SOT_THT:TO-92_Inline" H 5400 8275 50  0001 L CIN
+F 3 "https://www.onsemi.com/pub/Collateral/NDS7002A-D.PDF" H 5200 8350 50  0001 L CNN
+	1    5200 8350
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 61946F18
+P 5300 7900
+F 0 "R?" H 5370 7946 50  0000 L CNN
+F 1 "R" H 5370 7855 50  0000 L CNN
+F 2 "" V 5230 7900 50  0001 C CNN
+F 3 "~" H 5300 7900 50  0001 C CNN
+	1    5300 7900
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4700 7750 4700 7700
+Wire Wire Line
+	4700 7700 5150 7700
+Wire Wire Line
+	5300 7700 5300 7750
+Wire Wire Line
+	4700 8050 4700 8100
+Wire Wire Line
+	4700 8100 4950 8100
+Wire Wire Line
+	4950 8100 4950 8350
+Wire Wire Line
+	4950 8350 5000 8350
+Connection ~ 4700 8100
+Wire Wire Line
+	4700 8100 4700 8150
+Wire Wire Line
+	5300 8050 5300 8100
+Wire Wire Line
+	4700 9000 4700 9050
+Wire Wire Line
+	4700 9050 5150 9050
+Wire Wire Line
+	5300 9050 5300 8550
+Wire Wire Line
+	4700 8550 4700 8600
+$Comp
+L power:GND #PWR?
+U 1 1 61946F2C
+P 5150 9000
+F 0 "#PWR?" H 5150 8750 50  0001 C CNN
+F 1 "GND" H 5155 8827 50  0000 C CNN
+F 2 "" H 5150 9000 50  0001 C CNN
+F 3 "" H 5150 9000 50  0001 C CNN
+	1    5150 9000
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	5150 9000 5150 9050
+Connection ~ 5150 9050
+Wire Wire Line
+	5150 9050 5300 9050
+$Comp
+L power:VDD #PWR?
+U 1 1 61946F35
+P 5150 7750
+F 0 "#PWR?" H 5150 7600 50  0001 C CNN
+F 1 "VDD" H 5165 7923 50  0000 C CNN
+F 2 "" H 5150 7750 50  0001 C CNN
+F 3 "" H 5150 7750 50  0001 C CNN
+	1    5150 7750
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	5150 7750 5150 7700
+Connection ~ 5150 7700
+Wire Wire Line
+	5150 7700 5300 7700
+Wire Notes Line
+	4350 9100 5550 9100
+Text Notes 4400 7750 0    50   ~ 0
+AND
+Wire Notes Line
+	4350 3700 4350 9100
+Wire Notes Line
+	5550 4750 5550 9100
+Wire Wire Line
+	4400 5450 4300 5450
+Wire Wire Line
+	4300 5450 4300 6900
+Wire Wire Line
+	4300 6900 4400 6900
+Wire Wire Line
+	4300 6900 4300 8350
+Wire Wire Line
+	4300 8350 4400 8350
+Connection ~ 4300 6900
+Wire Wire Line
+	4200 4650 4950 4650
+Wire Wire Line
+	4150 5900 4400 5900
+Wire Wire Line
+	4400 7350 4100 7350
+Wire Wire Line
+	4050 8800 4400 8800
+Wire Wire Line
+	5900 4150 6250 4150
+Wire Wire Line
+	5300 5200 6300 5200
+Connection ~ 5300 5200
+Wire Wire Line
+	5300 5200 5300 5250
+Wire Wire Line
+	5300 6650 6350 6650
+Connection ~ 5300 6650
+Wire Wire Line
+	5300 6650 5300 6700
+Wire Wire Line
+	5300 8100 6400 8100
+Connection ~ 5300 8100
+Wire Wire Line
+	5300 8100 5300 8150
+$Comp
+L Transistor_FET:2N7000 Q?
+U 1 1 619AE89D
+P 7100 5850
+F 0 "Q?" H 7200 6000 50  0000 L CNN
+F 1 "2N7000" H 7304 5805 50  0001 L CNN
+F 2 "Package_TO_SOT_THT:TO-92_Inline" H 7300 5775 50  0001 L CIN
+F 3 "https://www.onsemi.com/pub/Collateral/NDS7002A-D.PDF" H 7100 5850 50  0001 L CNN
+	1    7100 5850
+	1    0    0    -1  
+$EndComp
+$Comp
+L Transistor_FET:2N7000 Q?
+U 1 1 619AE8A3
+P 7100 6300
+F 0 "Q?" H 7200 6450 50  0000 L CNN
+F 1 "2N7000" H 7304 6255 50  0001 L CNN
+F 2 "Package_TO_SOT_THT:TO-92_Inline" H 7300 6225 50  0001 L CIN
+F 3 "https://www.onsemi.com/pub/Collateral/NDS7002A-D.PDF" H 7100 6300 50  0001 L CNN
+	1    7100 6300
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 619AE8A9
+P 7200 5400
+F 0 "R?" H 7270 5446 50  0000 L CNN
+F 1 "R" H 7270 5355 50  0000 L CNN
+F 2 "" V 7130 5400 50  0001 C CNN
+F 3 "~" H 7200 5400 50  0001 C CNN
+	1    7200 5400
+	1    0    0    -1  
+$EndComp
+$Comp
+L Transistor_FET:2N7000 Q?
+U 1 1 619AE8AF
+P 7700 5850
+F 0 "Q?" H 7800 6000 50  0000 L CNN
+F 1 "2N7000" H 7904 5805 50  0001 L CNN
+F 2 "Package_TO_SOT_THT:TO-92_Inline" H 7900 5775 50  0001 L CIN
+F 3 "https://www.onsemi.com/pub/Collateral/NDS7002A-D.PDF" H 7700 5850 50  0001 L CNN
+	1    7700 5850
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 619AE8B5
+P 7800 5400
+F 0 "R?" H 7870 5446 50  0000 L CNN
+F 1 "R" H 7870 5355 50  0000 L CNN
+F 2 "" V 7730 5400 50  0001 C CNN
+F 3 "~" H 7800 5400 50  0001 C CNN
+	1    7800 5400
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7200 5250 7200 5200
+Wire Wire Line
+	7200 5200 7650 5200
+Wire Wire Line
+	7800 5200 7800 5250
+Wire Wire Line
+	7200 5550 7200 5600
+Wire Wire Line
+	7200 5600 7450 5600
+Wire Wire Line
+	7450 5600 7450 5850
+Wire Wire Line
+	7450 5850 7500 5850
+Connection ~ 7200 5600
+Wire Wire Line
+	7200 5600 7200 5650
+Wire Wire Line
+	7800 5550 7800 5600
+Wire Wire Line
+	7200 6500 7200 6550
+Wire Wire Line
+	7200 6550 7650 6550
+Wire Wire Line
+	7800 6550 7800 6050
+Wire Wire Line
+	7200 6050 7200 6100
+$Comp
+L power:GND #PWR?
+U 1 1 619AE8C9
+P 7650 6500
+F 0 "#PWR?" H 7650 6250 50  0001 C CNN
+F 1 "GND" H 7655 6327 50  0000 C CNN
+F 2 "" H 7650 6500 50  0001 C CNN
+F 3 "" H 7650 6500 50  0001 C CNN
+	1    7650 6500
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	7650 6500 7650 6550
+Connection ~ 7650 6550
+Wire Wire Line
+	7650 6550 7800 6550
+$Comp
+L power:VDD #PWR?
+U 1 1 619AE8D2
+P 7650 5250
+F 0 "#PWR?" H 7650 5100 50  0001 C CNN
+F 1 "VDD" H 7665 5423 50  0000 C CNN
+F 2 "" H 7650 5250 50  0001 C CNN
+F 3 "" H 7650 5250 50  0001 C CNN
+	1    7650 5250
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	7650 5250 7650 5200
+Connection ~ 7650 5200
+Wire Wire Line
+	7650 5200 7800 5200
+Wire Notes Line
+	6850 6600 8050 6600
+Text Notes 6900 5250 0    50   ~ 0
+AND
+$Comp
+L Transistor_FET:2N7000 Q?
+U 1 1 619BEC83
+P 7100 7300
+F 0 "Q?" H 7200 7450 50  0000 L CNN
+F 1 "2N7000" H 7304 7255 50  0001 L CNN
+F 2 "Package_TO_SOT_THT:TO-92_Inline" H 7300 7225 50  0001 L CIN
+F 3 "https://www.onsemi.com/pub/Collateral/NDS7002A-D.PDF" H 7100 7300 50  0001 L CNN
+	1    7100 7300
+	1    0    0    -1  
+$EndComp
+$Comp
+L Transistor_FET:2N7000 Q?
+U 1 1 619BEC89
+P 7100 7750
+F 0 "Q?" H 7200 7900 50  0000 L CNN
+F 1 "2N7000" H 7304 7705 50  0001 L CNN
+F 2 "Package_TO_SOT_THT:TO-92_Inline" H 7300 7675 50  0001 L CIN
+F 3 "https://www.onsemi.com/pub/Collateral/NDS7002A-D.PDF" H 7100 7750 50  0001 L CNN
+	1    7100 7750
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 619BEC8F
+P 7200 6850
+F 0 "R?" H 7270 6896 50  0000 L CNN
+F 1 "R" H 7270 6805 50  0000 L CNN
+F 2 "" V 7130 6850 50  0001 C CNN
+F 3 "~" H 7200 6850 50  0001 C CNN
+	1    7200 6850
+	1    0    0    -1  
+$EndComp
+$Comp
+L Transistor_FET:2N7000 Q?
+U 1 1 619BEC95
+P 7700 7300
+F 0 "Q?" H 7800 7450 50  0000 L CNN
+F 1 "2N7000" H 7904 7255 50  0001 L CNN
+F 2 "Package_TO_SOT_THT:TO-92_Inline" H 7900 7225 50  0001 L CIN
+F 3 "https://www.onsemi.com/pub/Collateral/NDS7002A-D.PDF" H 7700 7300 50  0001 L CNN
+	1    7700 7300
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 619BEC9B
+P 7800 6850
+F 0 "R?" H 7870 6896 50  0000 L CNN
+F 1 "R" H 7870 6805 50  0000 L CNN
+F 2 "" V 7730 6850 50  0001 C CNN
+F 3 "~" H 7800 6850 50  0001 C CNN
+	1    7800 6850
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7200 6700 7200 6650
+Wire Wire Line
+	7200 6650 7650 6650
+Wire Wire Line
+	7800 6650 7800 6700
+Wire Wire Line
+	7200 7000 7200 7050
+Wire Wire Line
+	7200 7050 7450 7050
+Wire Wire Line
+	7450 7050 7450 7300
+Wire Wire Line
+	7450 7300 7500 7300
+Connection ~ 7200 7050
+Wire Wire Line
+	7200 7050 7200 7100
+Wire Wire Line
+	7800 7000 7800 7050
+Wire Wire Line
+	7200 7950 7200 8000
+Wire Wire Line
+	7200 8000 7650 8000
+Wire Wire Line
+	7800 8000 7800 7500
+Wire Wire Line
+	7200 7500 7200 7550
+$Comp
+L power:GND #PWR?
+U 1 1 619BECAF
+P 7650 7950
+F 0 "#PWR?" H 7650 7700 50  0001 C CNN
+F 1 "GND" H 7655 7777 50  0000 C CNN
+F 2 "" H 7650 7950 50  0001 C CNN
+F 3 "" H 7650 7950 50  0001 C CNN
+	1    7650 7950
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	7650 7950 7650 8000
+Connection ~ 7650 8000
+Wire Wire Line
+	7650 8000 7800 8000
+$Comp
+L power:VDD #PWR?
+U 1 1 619BECB8
+P 7650 6700
+F 0 "#PWR?" H 7650 6550 50  0001 C CNN
+F 1 "VDD" H 7665 6873 50  0000 C CNN
+F 2 "" H 7650 6700 50  0001 C CNN
+F 3 "" H 7650 6700 50  0001 C CNN
+	1    7650 6700
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	7650 6700 7650 6650
+Connection ~ 7650 6650
+Wire Wire Line
+	7650 6650 7800 6650
+Wire Notes Line
+	6850 8050 8050 8050
+Text Notes 6900 6700 0    50   ~ 0
+AND
+$Comp
+L Transistor_FET:2N7000 Q?
+U 1 1 619CD220
+P 7100 8750
+F 0 "Q?" H 7200 8900 50  0000 L CNN
+F 1 "2N7000" H 7304 8705 50  0001 L CNN
+F 2 "Package_TO_SOT_THT:TO-92_Inline" H 7300 8675 50  0001 L CIN
+F 3 "https://www.onsemi.com/pub/Collateral/NDS7002A-D.PDF" H 7100 8750 50  0001 L CNN
+	1    7100 8750
+	1    0    0    -1  
+$EndComp
+$Comp
+L Transistor_FET:2N7000 Q?
+U 1 1 619CD226
+P 7100 9200
+F 0 "Q?" H 7200 9350 50  0000 L CNN
+F 1 "2N7000" H 7304 9155 50  0001 L CNN
+F 2 "Package_TO_SOT_THT:TO-92_Inline" H 7300 9125 50  0001 L CIN
+F 3 "https://www.onsemi.com/pub/Collateral/NDS7002A-D.PDF" H 7100 9200 50  0001 L CNN
+	1    7100 9200
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 619CD22C
+P 7200 8300
+F 0 "R?" H 7270 8346 50  0000 L CNN
+F 1 "R" H 7270 8255 50  0000 L CNN
+F 2 "" V 7130 8300 50  0001 C CNN
+F 3 "~" H 7200 8300 50  0001 C CNN
+	1    7200 8300
+	1    0    0    -1  
+$EndComp
+$Comp
+L Transistor_FET:2N7000 Q?
+U 1 1 619CD232
+P 7700 8750
+F 0 "Q?" H 7800 8900 50  0000 L CNN
+F 1 "2N7000" H 7904 8705 50  0001 L CNN
+F 2 "Package_TO_SOT_THT:TO-92_Inline" H 7900 8675 50  0001 L CIN
+F 3 "https://www.onsemi.com/pub/Collateral/NDS7002A-D.PDF" H 7700 8750 50  0001 L CNN
+	1    7700 8750
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 619CD238
+P 7800 8300
+F 0 "R?" H 7870 8346 50  0000 L CNN
+F 1 "R" H 7870 8255 50  0000 L CNN
+F 2 "" V 7730 8300 50  0001 C CNN
+F 3 "~" H 7800 8300 50  0001 C CNN
+	1    7800 8300
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7200 8150 7200 8100
+Wire Wire Line
+	7200 8100 7650 8100
+Wire Wire Line
+	7800 8100 7800 8150
+Wire Wire Line
+	7200 8450 7200 8500
+Wire Wire Line
+	7200 8500 7450 8500
+Wire Wire Line
+	7450 8500 7450 8750
+Wire Wire Line
+	7450 8750 7500 8750
+Connection ~ 7200 8500
+Wire Wire Line
+	7200 8500 7200 8550
+Wire Wire Line
+	7800 8450 7800 8500
+Wire Wire Line
+	7200 9400 7200 9450
+Wire Wire Line
+	7200 9450 7650 9450
+Wire Wire Line
+	7800 9450 7800 8950
+Wire Wire Line
+	7200 8950 7200 9000
+$Comp
+L power:GND #PWR?
+U 1 1 619CD24C
+P 7650 9400
+F 0 "#PWR?" H 7650 9150 50  0001 C CNN
+F 1 "GND" H 7655 9227 50  0000 C CNN
+F 2 "" H 7650 9400 50  0001 C CNN
+F 3 "" H 7650 9400 50  0001 C CNN
+	1    7650 9400
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	7650 9400 7650 9450
+Connection ~ 7650 9450
+Wire Wire Line
+	7650 9450 7800 9450
+$Comp
+L power:VDD #PWR?
+U 1 1 619CD255
+P 7650 8150
+F 0 "#PWR?" H 7650 8000 50  0001 C CNN
+F 1 "VDD" H 7665 8323 50  0000 C CNN
+F 2 "" H 7650 8150 50  0001 C CNN
+F 3 "" H 7650 8150 50  0001 C CNN
+	1    7650 8150
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	7650 8150 7650 8100
+Connection ~ 7650 8100
+Wire Wire Line
+	7650 8100 7800 8100
+Wire Notes Line
+	6850 9500 8050 9500
+Text Notes 6900 8150 0    50   ~ 0
+AND
+Wire Notes Line
+	8050 3700 8050 9500
+Wire Notes Line
+	6850 3700 6850 9500
+Wire Wire Line
+	6900 4400 6800 4400
+Wire Wire Line
+	6800 4400 6800 5850
+Wire Wire Line
+	6800 5850 6900 5850
+Wire Wire Line
+	6800 5850 6800 7300
+Wire Wire Line
+	6800 7300 6900 7300
+Connection ~ 6800 5850
+Wire Wire Line
+	6800 7300 6800 8750
+Wire Wire Line
+	6800 8750 6900 8750
+Connection ~ 6800 7300
+Wire Wire Line
+	6900 4850 6700 4850
+Wire Wire Line
+	6650 6300 6900 6300
+Wire Wire Line
+	6900 7750 6600 7750
+Wire Wire Line
+	6550 9200 6900 9200
+Wire Wire Line
+	7800 4150 8150 4150
+Connection ~ 7800 4150
+Wire Wire Line
+	7800 4150 7800 4200
+Wire Wire Line
+	7800 5600 8200 5600
+Connection ~ 7800 5600
+Wire Wire Line
+	7800 5600 7800 5650
+Wire Wire Line
+	8250 7050 7800 7050
+Connection ~ 7800 7050
+Wire Wire Line
+	7800 7050 7800 7100
+Wire Wire Line
+	7800 8500 8300 8500
+Connection ~ 7800 8500
+Wire Wire Line
+	7800 8500 7800 8550
+$Comp
+L Transistor_FET:2N7000 Q?
+U 1 1 61AC2D42
+P 9000 4400
+F 0 "Q?" H 9100 4550 50  0000 L CNN
+F 1 "2N7000" H 9204 4355 50  0001 L CNN
+F 2 "Package_TO_SOT_THT:TO-92_Inline" H 9200 4325 50  0001 L CIN
+F 3 "https://www.onsemi.com/pub/Collateral/NDS7002A-D.PDF" H 9000 4400 50  0001 L CNN
+	1    9000 4400
+	1    0    0    -1  
+$EndComp
+$Comp
+L Transistor_FET:2N7000 Q?
+U 1 1 61AC2D48
+P 9000 4850
+F 0 "Q?" H 9100 5000 50  0000 L CNN
+F 1 "2N7000" H 9204 4805 50  0001 L CNN
+F 2 "Package_TO_SOT_THT:TO-92_Inline" H 9200 4775 50  0001 L CIN
+F 3 "https://www.onsemi.com/pub/Collateral/NDS7002A-D.PDF" H 9000 4850 50  0001 L CNN
+	1    9000 4850
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 61AC2D4E
+P 9100 3950
+F 0 "R?" H 9170 3996 50  0000 L CNN
+F 1 "R" H 9170 3905 50  0000 L CNN
+F 2 "" V 9030 3950 50  0001 C CNN
+F 3 "~" H 9100 3950 50  0001 C CNN
+	1    9100 3950
+	1    0    0    -1  
+$EndComp
+$Comp
+L Transistor_FET:2N7000 Q?
+U 1 1 61AC2D54
+P 9600 4400
+F 0 "Q?" H 9700 4550 50  0000 L CNN
+F 1 "2N7000" H 9804 4355 50  0001 L CNN
+F 2 "Package_TO_SOT_THT:TO-92_Inline" H 9800 4325 50  0001 L CIN
+F 3 "https://www.onsemi.com/pub/Collateral/NDS7002A-D.PDF" H 9600 4400 50  0001 L CNN
+	1    9600 4400
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 61AC2D5A
+P 9700 3950
+F 0 "R?" H 9770 3996 50  0000 L CNN
+F 1 "R" H 9770 3905 50  0000 L CNN
+F 2 "" V 9630 3950 50  0001 C CNN
+F 3 "~" H 9700 3950 50  0001 C CNN
+	1    9700 3950
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9100 3800 9100 3750
+Wire Wire Line
+	9100 3750 9550 3750
+Wire Wire Line
+	9700 3750 9700 3800
+Wire Wire Line
+	9100 4100 9100 4150
+Wire Wire Line
+	9100 4150 9350 4150
+Wire Wire Line
+	9350 4150 9350 4400
+Wire Wire Line
+	9350 4400 9400 4400
+Connection ~ 9100 4150
+Wire Wire Line
+	9100 4150 9100 4200
+Wire Wire Line
+	9700 4100 9700 4150
+Wire Wire Line
+	9100 5050 9100 5100
+Wire Wire Line
+	9100 5100 9550 5100
+Wire Wire Line
+	9700 5100 9700 4600
+Wire Wire Line
+	9100 4600 9100 4650
+$Comp
+L power:GND #PWR?
+U 1 1 61AC2D6E
+P 9550 5050
+F 0 "#PWR?" H 9550 4800 50  0001 C CNN
+F 1 "GND" H 9555 4877 50  0000 C CNN
+F 2 "" H 9550 5050 50  0001 C CNN
+F 3 "" H 9550 5050 50  0001 C CNN
+	1    9550 5050
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	9550 5050 9550 5100
+Connection ~ 9550 5100
+Wire Wire Line
+	9550 5100 9700 5100
+$Comp
+L power:VDD #PWR?
+U 1 1 61AC2D77
+P 9550 3800
+F 0 "#PWR?" H 9550 3650 50  0001 C CNN
+F 1 "VDD" H 9565 3973 50  0000 C CNN
+F 2 "" H 9550 3800 50  0001 C CNN
+F 3 "" H 9550 3800 50  0001 C CNN
+	1    9550 3800
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	9550 3800 9550 3750
+Connection ~ 9550 3750
+Wire Wire Line
+	9550 3750 9700 3750
+Wire Notes Line
+	9950 3700 8750 3700
+Wire Notes Line
+	8750 5150 9950 5150
+Text Notes 8800 3800 0    50   ~ 0
+AND
+$Comp
+L Transistor_FET:2N7000 Q?
+U 1 1 61AC2D83
+P 9000 5850
+F 0 "Q?" H 9100 6000 50  0000 L CNN
+F 1 "2N7000" H 9204 5805 50  0001 L CNN
+F 2 "Package_TO_SOT_THT:TO-92_Inline" H 9200 5775 50  0001 L CIN
+F 3 "https://www.onsemi.com/pub/Collateral/NDS7002A-D.PDF" H 9000 5850 50  0001 L CNN
+	1    9000 5850
+	1    0    0    -1  
+$EndComp
+$Comp
+L Transistor_FET:2N7000 Q?
+U 1 1 61AC2D89
+P 9000 6300
+F 0 "Q?" H 9100 6450 50  0000 L CNN
+F 1 "2N7000" H 9204 6255 50  0001 L CNN
+F 2 "Package_TO_SOT_THT:TO-92_Inline" H 9200 6225 50  0001 L CIN
+F 3 "https://www.onsemi.com/pub/Collateral/NDS7002A-D.PDF" H 9000 6300 50  0001 L CNN
+	1    9000 6300
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 61AC2D8F
+P 9100 5400
+F 0 "R?" H 9170 5446 50  0000 L CNN
+F 1 "R" H 9170 5355 50  0000 L CNN
+F 2 "" V 9030 5400 50  0001 C CNN
+F 3 "~" H 9100 5400 50  0001 C CNN
+	1    9100 5400
+	1    0    0    -1  
+$EndComp
+$Comp
+L Transistor_FET:2N7000 Q?
+U 1 1 61AC2D95
+P 9600 5850
+F 0 "Q?" H 9700 6000 50  0000 L CNN
+F 1 "2N7000" H 9804 5805 50  0001 L CNN
+F 2 "Package_TO_SOT_THT:TO-92_Inline" H 9800 5775 50  0001 L CIN
+F 3 "https://www.onsemi.com/pub/Collateral/NDS7002A-D.PDF" H 9600 5850 50  0001 L CNN
+	1    9600 5850
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 61AC2D9B
+P 9700 5400
+F 0 "R?" H 9770 5446 50  0000 L CNN
+F 1 "R" H 9770 5355 50  0000 L CNN
+F 2 "" V 9630 5400 50  0001 C CNN
+F 3 "~" H 9700 5400 50  0001 C CNN
+	1    9700 5400
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9100 5250 9100 5200
+Wire Wire Line
+	9100 5200 9550 5200
+Wire Wire Line
+	9700 5200 9700 5250
+Wire Wire Line
+	9100 5550 9100 5600
+Wire Wire Line
+	9100 5600 9350 5600
+Wire Wire Line
+	9350 5600 9350 5850
+Wire Wire Line
+	9350 5850 9400 5850
+Connection ~ 9100 5600
+Wire Wire Line
+	9100 5600 9100 5650
+Wire Wire Line
+	9700 5550 9700 5600
+Wire Wire Line
+	9100 6500 9100 6550
+Wire Wire Line
+	9100 6550 9550 6550
+Wire Wire Line
+	9700 6550 9700 6050
+Wire Wire Line
+	9100 6050 9100 6100
+$Comp
+L power:GND #PWR?
+U 1 1 61AC2DAF
+P 9550 6500
+F 0 "#PWR?" H 9550 6250 50  0001 C CNN
+F 1 "GND" H 9555 6327 50  0000 C CNN
+F 2 "" H 9550 6500 50  0001 C CNN
+F 3 "" H 9550 6500 50  0001 C CNN
+	1    9550 6500
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	9550 6500 9550 6550
+Connection ~ 9550 6550
+Wire Wire Line
+	9550 6550 9700 6550
+$Comp
+L power:VDD #PWR?
+U 1 1 61AC2DB8
+P 9550 5250
+F 0 "#PWR?" H 9550 5100 50  0001 C CNN
+F 1 "VDD" H 9565 5423 50  0000 C CNN
+F 2 "" H 9550 5250 50  0001 C CNN
+F 3 "" H 9550 5250 50  0001 C CNN
+	1    9550 5250
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	9550 5250 9550 5200
+Connection ~ 9550 5200
+Wire Wire Line
+	9550 5200 9700 5200
+Wire Notes Line
+	8750 6600 9950 6600
+Text Notes 8800 5250 0    50   ~ 0
+AND
+$Comp
+L Transistor_FET:2N7000 Q?
+U 1 1 61AC2DC3
+P 9000 7300
+F 0 "Q?" H 9100 7450 50  0000 L CNN
+F 1 "2N7000" H 9204 7255 50  0001 L CNN
+F 2 "Package_TO_SOT_THT:TO-92_Inline" H 9200 7225 50  0001 L CIN
+F 3 "https://www.onsemi.com/pub/Collateral/NDS7002A-D.PDF" H 9000 7300 50  0001 L CNN
+	1    9000 7300
+	1    0    0    -1  
+$EndComp
+$Comp
+L Transistor_FET:2N7000 Q?
+U 1 1 61AC2DC9
+P 9000 7750
+F 0 "Q?" H 9100 7900 50  0000 L CNN
+F 1 "2N7000" H 9204 7705 50  0001 L CNN
+F 2 "Package_TO_SOT_THT:TO-92_Inline" H 9200 7675 50  0001 L CIN
+F 3 "https://www.onsemi.com/pub/Collateral/NDS7002A-D.PDF" H 9000 7750 50  0001 L CNN
+	1    9000 7750
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 61AC2DCF
+P 9100 6850
+F 0 "R?" H 9170 6896 50  0000 L CNN
+F 1 "R" H 9170 6805 50  0000 L CNN
+F 2 "" V 9030 6850 50  0001 C CNN
+F 3 "~" H 9100 6850 50  0001 C CNN
+	1    9100 6850
+	1    0    0    -1  
+$EndComp
+$Comp
+L Transistor_FET:2N7000 Q?
+U 1 1 61AC2DD5
+P 9600 7300
+F 0 "Q?" H 9700 7450 50  0000 L CNN
+F 1 "2N7000" H 9804 7255 50  0001 L CNN
+F 2 "Package_TO_SOT_THT:TO-92_Inline" H 9800 7225 50  0001 L CIN
+F 3 "https://www.onsemi.com/pub/Collateral/NDS7002A-D.PDF" H 9600 7300 50  0001 L CNN
+	1    9600 7300
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 61AC2DDB
+P 9700 6850
+F 0 "R?" H 9770 6896 50  0000 L CNN
+F 1 "R" H 9770 6805 50  0000 L CNN
+F 2 "" V 9630 6850 50  0001 C CNN
+F 3 "~" H 9700 6850 50  0001 C CNN
+	1    9700 6850
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9100 6700 9100 6650
+Wire Wire Line
+	9100 6650 9550 6650
+Wire Wire Line
+	9700 6650 9700 6700
+Wire Wire Line
+	9100 7000 9100 7050
+Wire Wire Line
+	9100 7050 9350 7050
+Wire Wire Line
+	9350 7050 9350 7300
+Wire Wire Line
+	9350 7300 9400 7300
+Connection ~ 9100 7050
+Wire Wire Line
+	9100 7050 9100 7100
+Wire Wire Line
+	9700 7000 9700 7050
+Wire Wire Line
+	9100 7950 9100 8000
+Wire Wire Line
+	9100 8000 9550 8000
+Wire Wire Line
+	9700 8000 9700 7500
+Wire Wire Line
+	9100 7500 9100 7550
+$Comp
+L power:GND #PWR?
+U 1 1 61AC2DEF
+P 9550 7950
+F 0 "#PWR?" H 9550 7700 50  0001 C CNN
+F 1 "GND" H 9555 7777 50  0000 C CNN
+F 2 "" H 9550 7950 50  0001 C CNN
+F 3 "" H 9550 7950 50  0001 C CNN
+	1    9550 7950
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	9550 7950 9550 8000
+Connection ~ 9550 8000
+Wire Wire Line
+	9550 8000 9700 8000
+$Comp
+L power:VDD #PWR?
+U 1 1 61AC2DF8
+P 9550 6700
+F 0 "#PWR?" H 9550 6550 50  0001 C CNN
+F 1 "VDD" H 9565 6873 50  0000 C CNN
+F 2 "" H 9550 6700 50  0001 C CNN
+F 3 "" H 9550 6700 50  0001 C CNN
+	1    9550 6700
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	9550 6700 9550 6650
+Connection ~ 9550 6650
+Wire Wire Line
+	9550 6650 9700 6650
+Wire Notes Line
+	8750 8050 9950 8050
+Text Notes 8800 6700 0    50   ~ 0
+AND
+$Comp
+L Transistor_FET:2N7000 Q?
+U 1 1 61AC2E03
+P 9000 8750
+F 0 "Q?" H 9100 8900 50  0000 L CNN
+F 1 "2N7000" H 9204 8705 50  0001 L CNN
+F 2 "Package_TO_SOT_THT:TO-92_Inline" H 9200 8675 50  0001 L CIN
+F 3 "https://www.onsemi.com/pub/Collateral/NDS7002A-D.PDF" H 9000 8750 50  0001 L CNN
+	1    9000 8750
+	1    0    0    -1  
+$EndComp
+$Comp
+L Transistor_FET:2N7000 Q?
+U 1 1 61AC2E09
+P 9000 9200
+F 0 "Q?" H 9100 9350 50  0000 L CNN
+F 1 "2N7000" H 9204 9155 50  0001 L CNN
+F 2 "Package_TO_SOT_THT:TO-92_Inline" H 9200 9125 50  0001 L CIN
+F 3 "https://www.onsemi.com/pub/Collateral/NDS7002A-D.PDF" H 9000 9200 50  0001 L CNN
+	1    9000 9200
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 61AC2E0F
+P 9100 8300
+F 0 "R?" H 9170 8346 50  0000 L CNN
+F 1 "R" H 9170 8255 50  0000 L CNN
+F 2 "" V 9030 8300 50  0001 C CNN
+F 3 "~" H 9100 8300 50  0001 C CNN
+	1    9100 8300
+	1    0    0    -1  
+$EndComp
+$Comp
+L Transistor_FET:2N7000 Q?
+U 1 1 61AC2E15
+P 9600 8750
+F 0 "Q?" H 9700 8900 50  0000 L CNN
+F 1 "2N7000" H 9804 8705 50  0001 L CNN
+F 2 "Package_TO_SOT_THT:TO-92_Inline" H 9800 8675 50  0001 L CIN
+F 3 "https://www.onsemi.com/pub/Collateral/NDS7002A-D.PDF" H 9600 8750 50  0001 L CNN
+	1    9600 8750
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 61AC2E1B
+P 9700 8300
+F 0 "R?" H 9770 8346 50  0000 L CNN
+F 1 "R" H 9770 8255 50  0000 L CNN
+F 2 "" V 9630 8300 50  0001 C CNN
+F 3 "~" H 9700 8300 50  0001 C CNN
+	1    9700 8300
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9100 8150 9100 8100
+Wire Wire Line
+	9100 8100 9550 8100
+Wire Wire Line
+	9700 8100 9700 8150
+Wire Wire Line
+	9100 8450 9100 8500
+Wire Wire Line
+	9100 8500 9350 8500
+Wire Wire Line
+	9350 8500 9350 8750
+Wire Wire Line
+	9350 8750 9400 8750
+Connection ~ 9100 8500
+Wire Wire Line
+	9100 8500 9100 8550
+Wire Wire Line
+	9700 8450 9700 8500
+Wire Wire Line
+	9100 9400 9100 9450
+Wire Wire Line
+	9100 9450 9550 9450
+Wire Wire Line
+	9700 9450 9700 8950
+Wire Wire Line
+	9100 8950 9100 9000
+$Comp
+L power:GND #PWR?
+U 1 1 61AC2E2F
+P 9550 9400
+F 0 "#PWR?" H 9550 9150 50  0001 C CNN
+F 1 "GND" H 9555 9227 50  0000 C CNN
+F 2 "" H 9550 9400 50  0001 C CNN
+F 3 "" H 9550 9400 50  0001 C CNN
+	1    9550 9400
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	9550 9400 9550 9450
+Connection ~ 9550 9450
+Wire Wire Line
+	9550 9450 9700 9450
+$Comp
+L power:VDD #PWR?
+U 1 1 61AC2E38
+P 9550 8150
+F 0 "#PWR?" H 9550 8000 50  0001 C CNN
+F 1 "VDD" H 9565 8323 50  0000 C CNN
+F 2 "" H 9550 8150 50  0001 C CNN
+F 3 "" H 9550 8150 50  0001 C CNN
+	1    9550 8150
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	9550 8150 9550 8100
+Connection ~ 9550 8100
+Wire Wire Line
+	9550 8100 9700 8100
+Wire Notes Line
+	8750 9500 9950 9500
+Text Notes 8800 8150 0    50   ~ 0
+AND
+Wire Notes Line
+	9950 3700 9950 9500
+Wire Notes Line
+	8750 3700 8750 9500
+Wire Wire Line
+	8800 4400 8700 4400
+Wire Wire Line
+	8700 4400 8700 5850
+Wire Wire Line
+	8700 5850 8800 5850
+Wire Wire Line
+	8700 5850 8700 7300
+Wire Wire Line
+	8700 7300 8800 7300
+Connection ~ 8700 5850
+Wire Wire Line
+	8700 7300 8700 8750
+Wire Wire Line
+	8700 8750 8800 8750
+Connection ~ 8700 7300
+Wire Wire Line
+	8800 4850 8600 4850
+Wire Wire Line
+	8550 6300 8800 6300
+Wire Wire Line
+	8800 7750 8500 7750
+Wire Wire Line
+	8450 9200 8800 9200
+Wire Wire Line
+	9700 4150 10050 4150
+Connection ~ 9700 4150
+Wire Wire Line
+	9700 4150 9700 4200
+Wire Wire Line
+	9700 5600 10100 5600
+Connection ~ 9700 5600
+Wire Wire Line
+	9700 5600 9700 5650
+Wire Wire Line
+	10150 7050 9700 7050
+Connection ~ 9700 7050
+Wire Wire Line
+	9700 7050 9700 7100
+Wire Wire Line
+	9700 8500 10200 8500
+Connection ~ 9700 8500
+Wire Wire Line
+	9700 8500 9700 8550
+$Comp
+L Transistor_FET:2N7000 Q?
+U 1 1 61B4AD92
+P 10900 4400
+F 0 "Q?" H 11000 4550 50  0000 L CNN
+F 1 "2N7000" H 11104 4355 50  0001 L CNN
+F 2 "Package_TO_SOT_THT:TO-92_Inline" H 11100 4325 50  0001 L CIN
+F 3 "https://www.onsemi.com/pub/Collateral/NDS7002A-D.PDF" H 10900 4400 50  0001 L CNN
+	1    10900 4400
+	1    0    0    -1  
+$EndComp
+$Comp
+L Transistor_FET:2N7000 Q?
+U 1 1 61B4AD98
+P 10900 4850
+F 0 "Q?" H 11000 5000 50  0000 L CNN
+F 1 "2N7000" H 11104 4805 50  0001 L CNN
+F 2 "Package_TO_SOT_THT:TO-92_Inline" H 11100 4775 50  0001 L CIN
+F 3 "https://www.onsemi.com/pub/Collateral/NDS7002A-D.PDF" H 10900 4850 50  0001 L CNN
+	1    10900 4850
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 61B4AD9E
+P 11000 3950
+F 0 "R?" H 11070 3996 50  0000 L CNN
+F 1 "R" H 11070 3905 50  0000 L CNN
+F 2 "" V 10930 3950 50  0001 C CNN
+F 3 "~" H 11000 3950 50  0001 C CNN
+	1    11000 3950
+	1    0    0    -1  
+$EndComp
+$Comp
+L Transistor_FET:2N7000 Q?
+U 1 1 61B4ADA4
+P 11500 4400
+F 0 "Q?" H 11600 4550 50  0000 L CNN
+F 1 "2N7000" H 11704 4355 50  0001 L CNN
+F 2 "Package_TO_SOT_THT:TO-92_Inline" H 11700 4325 50  0001 L CIN
+F 3 "https://www.onsemi.com/pub/Collateral/NDS7002A-D.PDF" H 11500 4400 50  0001 L CNN
+	1    11500 4400
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 61B4ADAA
+P 11600 3950
+F 0 "R?" H 11670 3996 50  0000 L CNN
+F 1 "R" H 11670 3905 50  0000 L CNN
+F 2 "" V 11530 3950 50  0001 C CNN
+F 3 "~" H 11600 3950 50  0001 C CNN
+	1    11600 3950
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	11000 3800 11000 3750
+Wire Wire Line
+	11000 3750 11450 3750
+Wire Wire Line
+	11600 3750 11600 3800
+Wire Wire Line
+	11000 4100 11000 4150
+Wire Wire Line
+	11000 4150 11250 4150
+Wire Wire Line
+	11250 4150 11250 4400
+Wire Wire Line
+	11250 4400 11300 4400
+Connection ~ 11000 4150
+Wire Wire Line
+	11000 4150 11000 4200
+Wire Wire Line
+	11600 4100 11600 4150
+Wire Wire Line
+	11000 5050 11000 5100
+Wire Wire Line
+	11000 5100 11450 5100
+Wire Wire Line
+	11600 5100 11600 4600
+Wire Wire Line
+	11000 4600 11000 4650
+$Comp
+L power:GND #PWR?
+U 1 1 61B4ADBE
+P 11450 5050
+F 0 "#PWR?" H 11450 4800 50  0001 C CNN
+F 1 "GND" H 11455 4877 50  0000 C CNN
+F 2 "" H 11450 5050 50  0001 C CNN
+F 3 "" H 11450 5050 50  0001 C CNN
+	1    11450 5050
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	11450 5050 11450 5100
+Connection ~ 11450 5100
+Wire Wire Line
+	11450 5100 11600 5100
+$Comp
+L power:VDD #PWR?
+U 1 1 61B4ADC7
+P 11450 3800
+F 0 "#PWR?" H 11450 3650 50  0001 C CNN
+F 1 "VDD" H 11465 3973 50  0000 C CNN
+F 2 "" H 11450 3800 50  0001 C CNN
+F 3 "" H 11450 3800 50  0001 C CNN
+	1    11450 3800
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	11450 3800 11450 3750
+Connection ~ 11450 3750
+Wire Wire Line
+	11450 3750 11600 3750
+Wire Notes Line
+	11850 3700 10650 3700
+Wire Notes Line
+	10650 5150 11850 5150
+Text Notes 10700 3800 0    50   ~ 0
+AND
+$Comp
+L Transistor_FET:2N7000 Q?
+U 1 1 61B4ADD3
+P 10900 5850
+F 0 "Q?" H 11000 6000 50  0000 L CNN
+F 1 "2N7000" H 11104 5805 50  0001 L CNN
+F 2 "Package_TO_SOT_THT:TO-92_Inline" H 11100 5775 50  0001 L CIN
+F 3 "https://www.onsemi.com/pub/Collateral/NDS7002A-D.PDF" H 10900 5850 50  0001 L CNN
+	1    10900 5850
+	1    0    0    -1  
+$EndComp
+$Comp
+L Transistor_FET:2N7000 Q?
+U 1 1 61B4ADD9
+P 10900 6300
+F 0 "Q?" H 11000 6450 50  0000 L CNN
+F 1 "2N7000" H 11104 6255 50  0001 L CNN
+F 2 "Package_TO_SOT_THT:TO-92_Inline" H 11100 6225 50  0001 L CIN
+F 3 "https://www.onsemi.com/pub/Collateral/NDS7002A-D.PDF" H 10900 6300 50  0001 L CNN
+	1    10900 6300
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 61B4ADDF
+P 11000 5400
+F 0 "R?" H 11070 5446 50  0000 L CNN
+F 1 "R" H 11070 5355 50  0000 L CNN
+F 2 "" V 10930 5400 50  0001 C CNN
+F 3 "~" H 11000 5400 50  0001 C CNN
+	1    11000 5400
+	1    0    0    -1  
+$EndComp
+$Comp
+L Transistor_FET:2N7000 Q?
+U 1 1 61B4ADE5
+P 11500 5850
+F 0 "Q?" H 11600 6000 50  0000 L CNN
+F 1 "2N7000" H 11704 5805 50  0001 L CNN
+F 2 "Package_TO_SOT_THT:TO-92_Inline" H 11700 5775 50  0001 L CIN
+F 3 "https://www.onsemi.com/pub/Collateral/NDS7002A-D.PDF" H 11500 5850 50  0001 L CNN
+	1    11500 5850
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 61B4ADEB
+P 11600 5400
+F 0 "R?" H 11670 5446 50  0000 L CNN
+F 1 "R" H 11670 5355 50  0000 L CNN
+F 2 "" V 11530 5400 50  0001 C CNN
+F 3 "~" H 11600 5400 50  0001 C CNN
+	1    11600 5400
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	11000 5250 11000 5200
+Wire Wire Line
+	11000 5200 11450 5200
+Wire Wire Line
+	11600 5200 11600 5250
+Wire Wire Line
+	11000 5550 11000 5600
+Wire Wire Line
+	11000 5600 11250 5600
+Wire Wire Line
+	11250 5600 11250 5850
+Wire Wire Line
+	11250 5850 11300 5850
+Connection ~ 11000 5600
+Wire Wire Line
+	11000 5600 11000 5650
+Wire Wire Line
+	11600 5550 11600 5600
+Wire Wire Line
+	11000 6500 11000 6550
+Wire Wire Line
+	11000 6550 11450 6550
+Wire Wire Line
+	11600 6550 11600 6050
+Wire Wire Line
+	11000 6050 11000 6100
+$Comp
+L power:GND #PWR?
+U 1 1 61B4ADFF
+P 11450 6500
+F 0 "#PWR?" H 11450 6250 50  0001 C CNN
+F 1 "GND" H 11455 6327 50  0000 C CNN
+F 2 "" H 11450 6500 50  0001 C CNN
+F 3 "" H 11450 6500 50  0001 C CNN
+	1    11450 6500
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	11450 6500 11450 6550
+Connection ~ 11450 6550
+Wire Wire Line
+	11450 6550 11600 6550
+$Comp
+L power:VDD #PWR?
+U 1 1 61B4AE08
+P 11450 5250
+F 0 "#PWR?" H 11450 5100 50  0001 C CNN
+F 1 "VDD" H 11465 5423 50  0000 C CNN
+F 2 "" H 11450 5250 50  0001 C CNN
+F 3 "" H 11450 5250 50  0001 C CNN
+	1    11450 5250
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	11450 5250 11450 5200
+Connection ~ 11450 5200
+Wire Wire Line
+	11450 5200 11600 5200
+Wire Notes Line
+	10650 6600 11850 6600
+Text Notes 10700 5250 0    50   ~ 0
+AND
+$Comp
+L Transistor_FET:2N7000 Q?
+U 1 1 61B4AE13
+P 10900 7300
+F 0 "Q?" H 11000 7450 50  0000 L CNN
+F 1 "2N7000" H 11104 7255 50  0001 L CNN
+F 2 "Package_TO_SOT_THT:TO-92_Inline" H 11100 7225 50  0001 L CIN
+F 3 "https://www.onsemi.com/pub/Collateral/NDS7002A-D.PDF" H 10900 7300 50  0001 L CNN
+	1    10900 7300
+	1    0    0    -1  
+$EndComp
+$Comp
+L Transistor_FET:2N7000 Q?
+U 1 1 61B4AE19
+P 10900 7750
+F 0 "Q?" H 11000 7900 50  0000 L CNN
+F 1 "2N7000" H 11104 7705 50  0001 L CNN
+F 2 "Package_TO_SOT_THT:TO-92_Inline" H 11100 7675 50  0001 L CIN
+F 3 "https://www.onsemi.com/pub/Collateral/NDS7002A-D.PDF" H 10900 7750 50  0001 L CNN
+	1    10900 7750
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 61B4AE1F
+P 11000 6850
+F 0 "R?" H 11070 6896 50  0000 L CNN
+F 1 "R" H 11070 6805 50  0000 L CNN
+F 2 "" V 10930 6850 50  0001 C CNN
+F 3 "~" H 11000 6850 50  0001 C CNN
+	1    11000 6850
+	1    0    0    -1  
+$EndComp
+$Comp
+L Transistor_FET:2N7000 Q?
+U 1 1 61B4AE25
+P 11500 7300
+F 0 "Q?" H 11600 7450 50  0000 L CNN
+F 1 "2N7000" H 11704 7255 50  0001 L CNN
+F 2 "Package_TO_SOT_THT:TO-92_Inline" H 11700 7225 50  0001 L CIN
+F 3 "https://www.onsemi.com/pub/Collateral/NDS7002A-D.PDF" H 11500 7300 50  0001 L CNN
+	1    11500 7300
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 61B4AE2B
+P 11600 6850
+F 0 "R?" H 11670 6896 50  0000 L CNN
+F 1 "R" H 11670 6805 50  0000 L CNN
+F 2 "" V 11530 6850 50  0001 C CNN
+F 3 "~" H 11600 6850 50  0001 C CNN
+	1    11600 6850
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	11000 6700 11000 6650
+Wire Wire Line
+	11000 6650 11450 6650
+Wire Wire Line
+	11600 6650 11600 6700
+Wire Wire Line
+	11000 7000 11000 7050
+Wire Wire Line
+	11000 7050 11250 7050
+Wire Wire Line
+	11250 7050 11250 7300
+Wire Wire Line
+	11250 7300 11300 7300
+Connection ~ 11000 7050
+Wire Wire Line
+	11000 7050 11000 7100
+Wire Wire Line
+	11600 7000 11600 7050
+Wire Wire Line
+	11000 7950 11000 8000
+Wire Wire Line
+	11000 8000 11450 8000
+Wire Wire Line
+	11600 8000 11600 7500
+Wire Wire Line
+	11000 7500 11000 7550
+$Comp
+L power:GND #PWR?
+U 1 1 61B4AE3F
+P 11450 7950
+F 0 "#PWR?" H 11450 7700 50  0001 C CNN
+F 1 "GND" H 11455 7777 50  0000 C CNN
+F 2 "" H 11450 7950 50  0001 C CNN
+F 3 "" H 11450 7950 50  0001 C CNN
+	1    11450 7950
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	11450 7950 11450 8000
+Connection ~ 11450 8000
+Wire Wire Line
+	11450 8000 11600 8000
+$Comp
+L power:VDD #PWR?
+U 1 1 61B4AE48
+P 11450 6700
+F 0 "#PWR?" H 11450 6550 50  0001 C CNN
+F 1 "VDD" H 11465 6873 50  0000 C CNN
+F 2 "" H 11450 6700 50  0001 C CNN
+F 3 "" H 11450 6700 50  0001 C CNN
+	1    11450 6700
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	11450 6700 11450 6650
+Connection ~ 11450 6650
+Wire Wire Line
+	11450 6650 11600 6650
+Wire Notes Line
+	10650 8050 11850 8050
+Text Notes 10700 6700 0    50   ~ 0
+AND
+$Comp
+L Transistor_FET:2N7000 Q?
+U 1 1 61B4AE53
+P 10900 8750
+F 0 "Q?" H 11000 8900 50  0000 L CNN
+F 1 "2N7000" H 11104 8705 50  0001 L CNN
+F 2 "Package_TO_SOT_THT:TO-92_Inline" H 11100 8675 50  0001 L CIN
+F 3 "https://www.onsemi.com/pub/Collateral/NDS7002A-D.PDF" H 10900 8750 50  0001 L CNN
+	1    10900 8750
+	1    0    0    -1  
+$EndComp
+$Comp
+L Transistor_FET:2N7000 Q?
+U 1 1 61B4AE59
+P 10900 9200
+F 0 "Q?" H 11000 9350 50  0000 L CNN
+F 1 "2N7000" H 11104 9155 50  0001 L CNN
+F 2 "Package_TO_SOT_THT:TO-92_Inline" H 11100 9125 50  0001 L CIN
+F 3 "https://www.onsemi.com/pub/Collateral/NDS7002A-D.PDF" H 10900 9200 50  0001 L CNN
+	1    10900 9200
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 61B4AE5F
+P 11000 8300
+F 0 "R?" H 11070 8346 50  0000 L CNN
+F 1 "R" H 11070 8255 50  0000 L CNN
+F 2 "" V 10930 8300 50  0001 C CNN
+F 3 "~" H 11000 8300 50  0001 C CNN
+	1    11000 8300
+	1    0    0    -1  
+$EndComp
+$Comp
+L Transistor_FET:2N7000 Q?
+U 1 1 61B4AE65
+P 11500 8750
+F 0 "Q?" H 11600 8900 50  0000 L CNN
+F 1 "2N7000" H 11704 8705 50  0001 L CNN
+F 2 "Package_TO_SOT_THT:TO-92_Inline" H 11700 8675 50  0001 L CIN
+F 3 "https://www.onsemi.com/pub/Collateral/NDS7002A-D.PDF" H 11500 8750 50  0001 L CNN
+	1    11500 8750
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 61B4AE6B
+P 11600 8300
+F 0 "R?" H 11670 8346 50  0000 L CNN
+F 1 "R" H 11670 8255 50  0000 L CNN
+F 2 "" V 11530 8300 50  0001 C CNN
+F 3 "~" H 11600 8300 50  0001 C CNN
+	1    11600 8300
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	11000 8150 11000 8100
+Wire Wire Line
+	11000 8100 11450 8100
+Wire Wire Line
+	11600 8100 11600 8150
+Wire Wire Line
+	11000 8450 11000 8500
+Wire Wire Line
+	11000 8500 11250 8500
+Wire Wire Line
+	11250 8500 11250 8750
+Wire Wire Line
+	11250 8750 11300 8750
+Connection ~ 11000 8500
+Wire Wire Line
+	11000 8500 11000 8550
+Wire Wire Line
+	11600 8450 11600 8500
+Wire Wire Line
+	11000 9400 11000 9450
+Wire Wire Line
+	11000 9450 11450 9450
+Wire Wire Line
+	11600 9450 11600 8950
+Wire Wire Line
+	11000 8950 11000 9000
+$Comp
+L power:GND #PWR?
+U 1 1 61B4AE7F
+P 11450 9400
+F 0 "#PWR?" H 11450 9150 50  0001 C CNN
+F 1 "GND" H 11455 9227 50  0000 C CNN
+F 2 "" H 11450 9400 50  0001 C CNN
+F 3 "" H 11450 9400 50  0001 C CNN
+	1    11450 9400
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	11450 9400 11450 9450
+Connection ~ 11450 9450
+Wire Wire Line
+	11450 9450 11600 9450
+$Comp
+L power:VDD #PWR?
+U 1 1 61B4AE88
+P 11450 8150
+F 0 "#PWR?" H 11450 8000 50  0001 C CNN
+F 1 "VDD" H 11465 8323 50  0000 C CNN
+F 2 "" H 11450 8150 50  0001 C CNN
+F 3 "" H 11450 8150 50  0001 C CNN
+	1    11450 8150
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	11450 8150 11450 8100
+Connection ~ 11450 8100
+Wire Wire Line
+	11450 8100 11600 8100
+Wire Notes Line
+	10650 9500 11850 9500
+Text Notes 10700 8150 0    50   ~ 0
+AND
+Wire Notes Line
+	11850 3700 11850 9500
+Wire Notes Line
+	10650 3700 10650 9500
+Wire Wire Line
+	10700 4400 10600 4400
+Wire Wire Line
+	10600 4400 10600 5850
+Wire Wire Line
+	10600 5850 10700 5850
+Wire Wire Line
+	10600 5850 10600 7300
+Wire Wire Line
+	10600 7300 10700 7300
+Connection ~ 10600 5850
+Wire Wire Line
+	10600 7300 10600 8750
+Wire Wire Line
+	10600 8750 10700 8750
+Connection ~ 10600 7300
+Wire Wire Line
+	10700 4850 10500 4850
+Wire Wire Line
+	10450 6300 10700 6300
+Wire Wire Line
+	10700 7750 10400 7750
+Wire Wire Line
+	10350 9200 10700 9200
+Wire Wire Line
+	11600 4150 11950 4150
+Connection ~ 11600 4150
+Wire Wire Line
+	11600 4150 11600 4200
+Wire Wire Line
+	11600 5600 12000 5600
+Connection ~ 11600 5600
+Wire Wire Line
+	11600 5600 11600 5650
+Wire Wire Line
+	12050 7050 11600 7050
+Connection ~ 11600 7050
+Wire Wire Line
+	11600 7050 11600 7100
+Wire Wire Line
+	11600 8500 12100 8500
+Connection ~ 11600 8500
+Wire Wire Line
+	11600 8500 11600 8550
+$Comp
+L Transistor_FET:2N7000 Q?
+U 1 1 61D0DCF1
+P 3450 5700
+F 0 "Q?" H 3550 5850 50  0000 L CNN
+F 1 "2N7000" H 3654 5655 50  0001 L CNN
+F 2 "Package_TO_SOT_THT:TO-92_Inline" H 3650 5625 50  0001 L CIN
+F 3 "https://www.onsemi.com/pub/Collateral/NDS7002A-D.PDF" H 3450 5700 50  0001 L CNN
+	1    3450 5700
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 61D0EA2A
+P 3550 5250
+F 0 "R?" H 3620 5296 50  0000 L CNN
+F 1 "R" H 3620 5205 50  0000 L CNN
+F 2 "" V 3480 5250 50  0001 C CNN
+F 3 "~" H 3550 5250 50  0001 C CNN
+	1    3550 5250
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 61D107A6
+P 3250 5950
+F 0 "#PWR?" H 3250 5700 50  0001 C CNN
+F 1 "GND" H 3255 5777 50  0000 C CNN
+F 2 "" H 3250 5950 50  0001 C CNN
+F 3 "" H 3250 5950 50  0001 C CNN
+	1    3250 5950
+	-1   0    0    1   
+$EndComp
+$Comp
+L power:VDD #PWR?
+U 1 1 61D125C4
+P 3400 5100
+F 0 "#PWR?" H 3400 4950 50  0001 C CNN
+F 1 "VDD" H 3415 5273 50  0000 C CNN
+F 2 "" H 3400 5100 50  0001 C CNN
+F 3 "" H 3400 5100 50  0001 C CNN
+	1    3400 5100
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	3400 5100 3400 5050
+Wire Wire Line
+	3400 5050 3550 5050
+Wire Wire Line
+	3550 5050 3550 5100
+Wire Wire Line
+	3550 5400 3550 5450
+Wire Wire Line
+	3250 5950 3250 6000
+Wire Wire Line
+	3250 6000 3550 6000
+Wire Wire Line
+	3550 6000 3550 5900
+Wire Notes Line
+	3800 6050 3800 5000
+Wire Notes Line
+	3800 5000 3150 5000
+Wire Notes Line
+	3150 5000 3150 6050
+Wire Notes Line
+	3150 6050 3800 6050
+Connection ~ 3550 5450
+Wire Wire Line
+	3550 5450 3550 5500
+Wire Wire Line
+	3250 5700 3100 5700
+Text Notes 3150 5100 0    50   ~ 0
+NOT
+Wire Wire Line
+	3100 5700 3100 4400
+Wire Wire Line
+	3100 4400 4400 4400
+Wire Wire Line
+	2900 4400 3000 4400
+Connection ~ 3100 4400
+Wire Wire Line
+	10350 3550 3800 3550
+Wire Wire Line
+	10350 3550 10350 9200
+Wire Wire Line
+	3700 3450 3800 3450
+Wire Wire Line
+	10400 3450 10400 7750
+Wire Wire Line
+	10450 3350 3800 3350
+Wire Wire Line
+	10450 3350 10450 6300
+Wire Wire Line
+	3700 3250 3800 3250
+Wire Wire Line
+	10500 3250 10500 4850
+Wire Wire Line
+	8450 3150 3800 3150
+Wire Wire Line
+	8450 3150 8450 9200
+Wire Wire Line
+	3700 3050 3800 3050
+Wire Wire Line
+	8500 3050 8500 7750
+Wire Wire Line
+	8550 2950 3800 2950
+Wire Wire Line
+	8550 2950 8550 6300
+Wire Wire Line
+	3700 2850 3800 2850
+Wire Wire Line
+	8600 2850 8600 4850
+Wire Wire Line
+	6550 2750 3800 2750
+Wire Wire Line
+	6550 2750 6550 9200
+Wire Wire Line
+	3700 2650 3800 2650
+Wire Wire Line
+	6600 2650 6600 7750
+Wire Wire Line
+	6650 2550 3800 2550
+Wire Wire Line
+	6650 2550 6650 6300
+Wire Wire Line
+	3700 2450 3800 2450
+Wire Wire Line
+	6700 2450 6700 4850
+Wire Wire Line
+	4050 2350 4050 8800
+Wire Wire Line
+	3700 2250 3800 2250
+Wire Wire Line
+	4100 2250 4100 7350
+Wire Wire Line
+	4150 2150 3800 2150
+Wire Wire Line
+	4150 2150 4150 5900
+Wire Wire Line
+	3700 2050 3800 2050
+Wire Wire Line
+	4200 2050 4200 4650
+Wire Wire Line
+	6400 2350 12400 2350
+Wire Wire Line
+	6400 2350 6400 8100
+Wire Wire Line
+	6350 2250 12400 2250
+Wire Wire Line
+	6350 2250 6350 6650
+Wire Wire Line
+	6300 2150 12400 2150
+Wire Wire Line
+	6300 2150 6300 5200
+Wire Wire Line
+	6250 2050 12400 2050
+Wire Wire Line
+	6250 2050 6250 4150
+Wire Wire Line
+	8300 2750 12400 2750
+Wire Wire Line
+	8300 2750 8300 8500
+Wire Wire Line
+	12500 2650 12400 2650
+Wire Wire Line
+	8250 2650 8250 7050
+Wire Wire Line
+	8200 2550 12400 2550
+Wire Wire Line
+	8200 2550 8200 5600
+Wire Wire Line
+	12500 2450 12400 2450
+Wire Wire Line
+	8150 2450 8150 4150
+Wire Wire Line
+	10200 3150 12400 3150
+Wire Wire Line
+	10200 3150 10200 8500
+Wire Wire Line
+	10150 3050 12400 3050
+Wire Wire Line
+	10150 3050 10150 7050
+Wire Wire Line
+	10100 2950 12400 2950
+Wire Wire Line
+	10100 2950 10100 5600
+Wire Wire Line
+	10050 2850 12400 2850
+Wire Wire Line
+	10050 2850 10050 4150
+Wire Wire Line
+	11950 3250 12400 3250
+Wire Wire Line
+	11950 3250 11950 4150
+Wire Wire Line
+	12000 3350 12400 3350
+Wire Wire Line
+	12000 3350 12000 5600
+Wire Wire Line
+	12050 3450 12400 3450
+Wire Wire Line
+	12050 3450 12050 7050
+Wire Wire Line
+	12100 3550 12400 3550
+Wire Wire Line
+	12100 3550 12100 8500
+Wire Wire Line
+	3550 5450 4300 5450
+Connection ~ 4300 5450
+Wire Wire Line
+	4300 8350 4300 9650
+Wire Wire Line
+	10600 9650 10600 8750
+Connection ~ 4300 8350
+Connection ~ 10600 8750
+Wire Wire Line
+	8700 8750 8700 9650
+Wire Wire Line
+	4300 9650 6800 9650
+Connection ~ 8700 8750
+Connection ~ 8700 9650
+Wire Wire Line
+	8700 9650 10600 9650
+Wire Wire Line
+	6800 8750 6800 9650
+Connection ~ 6800 8750
+Connection ~ 6800 9650
+Wire Wire Line
+	6800 9650 8700 9650
+$Comp
+L Connector:Conn_01x16_Male J?
+U 1 1 627421F4
+P 3100 2800
+F 0 "J?" H 2900 2850 50  0000 C CNN
+F 1 "Input" H 2900 2750 50  0000 C CNN
+F 2 "" H 3100 2800 50  0001 C CNN
+F 3 "~" H 3100 2800 50  0001 C CNN
+	1    3100 2800
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:Conn_01x01_Male J?
+U 1 1 6277E4FF
+P 1900 4450
+F 0 "J?" H 1700 4550 50  0000 C CNN
+F 1 "control" H 1700 4450 50  0000 C CNN
+F 2 "" H 1900 4450 50  0001 C CNN
+F 3 "~" H 1900 4450 50  0001 C CNN
+	1    1900 4450
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2100 4450 3000 4450
+Wire Wire Line
+	3000 4450 3000 4400
+Connection ~ 3000 4400
+Wire Wire Line
+	3000 4400 3100 4400
+Wire Wire Line
+	3300 3600 3800 3600
+Wire Wire Line
+	3800 3600 3800 3550
+Connection ~ 3800 3550
+Wire Wire Line
+	3800 3550 3700 3550
+Wire Wire Line
+	3300 3500 3800 3500
+Wire Wire Line
+	3800 3500 3800 3450
+Connection ~ 3800 3450
+Wire Wire Line
+	3800 3450 10400 3450
+Wire Wire Line
+	3300 3400 3800 3400
+Wire Wire Line
+	3800 3400 3800 3350
+Connection ~ 3800 3350
+Wire Wire Line
+	3800 3350 3700 3350
+Wire Wire Line
+	3300 3300 3800 3300
+Wire Wire Line
+	3800 3300 3800 3250
+Connection ~ 3800 3250
+Wire Wire Line
+	3800 3250 10500 3250
+Wire Wire Line
+	3300 3200 3800 3200
+Wire Wire Line
+	3800 3200 3800 3150
+Connection ~ 3800 3150
+Wire Wire Line
+	3800 3150 3700 3150
+Wire Wire Line
+	3300 3100 3800 3100
+Wire Wire Line
+	3800 3100 3800 3050
+Connection ~ 3800 3050
+Wire Wire Line
+	3800 3050 8500 3050
+Wire Wire Line
+	3300 3000 3800 3000
+Wire Wire Line
+	3800 3000 3800 2950
+Connection ~ 3800 2950
+Wire Wire Line
+	3800 2950 3700 2950
+Wire Wire Line
+	3300 2900 3800 2900
+Wire Wire Line
+	3800 2900 3800 2850
+Connection ~ 3800 2850
+Wire Wire Line
+	3800 2850 8600 2850
+Wire Wire Line
+	3300 2800 3800 2800
+Wire Wire Line
+	3800 2800 3800 2750
+Connection ~ 3800 2750
+Wire Wire Line
+	3800 2750 3700 2750
+Wire Wire Line
+	3300 2700 3800 2700
+Wire Wire Line
+	3800 2700 3800 2650
+Connection ~ 3800 2650
+Wire Wire Line
+	3800 2650 6600 2650
+Wire Wire Line
+	3300 2600 3800 2600
+Wire Wire Line
+	3800 2600 3800 2550
+Connection ~ 3800 2550
+Wire Wire Line
+	3800 2550 3700 2550
+Wire Wire Line
+	3300 2500 3800 2500
+Wire Wire Line
+	3800 2500 3800 2450
+Connection ~ 3800 2450
+Wire Wire Line
+	3800 2450 6700 2450
+Wire Wire Line
+	4050 2350 3800 2350
+Wire Wire Line
+	3300 2400 3800 2400
+Wire Wire Line
+	3800 2400 3800 2350
+Connection ~ 3800 2350
+Wire Wire Line
+	3800 2350 3700 2350
+Wire Wire Line
+	3300 2300 3800 2300
+Wire Wire Line
+	3800 2300 3800 2250
+Connection ~ 3800 2250
+Wire Wire Line
+	3800 2250 4100 2250
+Wire Wire Line
+	3300 2200 3800 2200
+Wire Wire Line
+	3800 2200 3800 2150
+Connection ~ 3800 2150
+Wire Wire Line
+	3800 2150 3700 2150
+Wire Wire Line
+	3300 2100 3800 2100
+Wire Wire Line
+	3800 2100 3800 2050
+Connection ~ 3800 2050
+Wire Wire Line
+	3800 2050 4200 2050
+$Comp
+L Connector:Conn_01x16_Male J?
+U 1 1 62B99703
+P 13150 2900
+F 0 "J?" H 12950 2800 50  0000 C CNN
+F 1 "Output" H 12950 2900 50  0000 C CNN
+F 2 "" H 13150 2900 50  0001 C CNN
+F 3 "~" H 13150 2900 50  0001 C CNN
+	1    13150 2900
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	12950 2100 12400 2100
+Wire Wire Line
+	12400 2100 12400 2050
+Connection ~ 12400 2050
+Wire Wire Line
+	12400 2050 12500 2050
+Wire Wire Line
+	12950 2200 12400 2200
+Wire Wire Line
+	12400 2200 12400 2150
+Connection ~ 12400 2150
+Wire Wire Line
+	12400 2150 12500 2150
+Wire Wire Line
+	12950 2300 12400 2300
+Wire Wire Line
+	12400 2300 12400 2250
+Connection ~ 12400 2250
+Wire Wire Line
+	12400 2250 12500 2250
+Wire Wire Line
+	12950 2400 12400 2400
+Wire Wire Line
+	12400 2400 12400 2350
+Connection ~ 12400 2350
+Wire Wire Line
+	12400 2350 12500 2350
+Wire Wire Line
+	12950 2500 12400 2500
+Wire Wire Line
+	12400 2500 12400 2450
+Connection ~ 12400 2450
+Wire Wire Line
+	12400 2450 8150 2450
+Wire Wire Line
+	12950 2600 12400 2600
+Wire Wire Line
+	12400 2600 12400 2550
+Connection ~ 12400 2550
+Wire Wire Line
+	12400 2550 12500 2550
+Wire Wire Line
+	12950 2700 12400 2700
+Wire Wire Line
+	12400 2700 12400 2650
+Connection ~ 12400 2650
+Wire Wire Line
+	12400 2650 8250 2650
+Wire Wire Line
+	12950 2800 12400 2800
+Wire Wire Line
+	12400 2800 12400 2750
+Connection ~ 12400 2750
+Wire Wire Line
+	12400 2750 12500 2750
+Wire Wire Line
+	12950 2900 12400 2900
+Wire Wire Line
+	12400 2900 12400 2850
+Connection ~ 12400 2850
+Wire Wire Line
+	12400 2850 12500 2850
+Wire Wire Line
+	12950 3000 12400 3000
+Wire Wire Line
+	12400 3000 12400 2950
+Connection ~ 12400 2950
+Wire Wire Line
+	12400 2950 12500 2950
+Wire Wire Line
+	12950 3100 12400 3100
+Wire Wire Line
+	12400 3100 12400 3050
+Connection ~ 12400 3050
+Wire Wire Line
+	12400 3050 12500 3050
+Wire Wire Line
+	12950 3200 12400 3200
+Wire Wire Line
+	12400 3200 12400 3150
+Connection ~ 12400 3150
+Wire Wire Line
+	12400 3150 12500 3150
+Wire Wire Line
+	12950 3300 12400 3300
+Wire Wire Line
+	12400 3300 12400 3250
+Connection ~ 12400 3250
+Wire Wire Line
+	12400 3250 12500 3250
+Wire Wire Line
+	12950 3400 12400 3400
+Wire Wire Line
+	12400 3400 12400 3350
+Connection ~ 12400 3350
+Wire Wire Line
+	12400 3350 12500 3350
+Wire Wire Line
+	12950 3500 12400 3500
+Wire Wire Line
+	12400 3500 12400 3450
+Connection ~ 12400 3450
+Wire Wire Line
+	12400 3450 12500 3450
+Wire Wire Line
+	12950 3600 12400 3600
+Wire Wire Line
+	12400 3600 12400 3550
+Connection ~ 12400 3550
+Wire Wire Line
+	12400 3550 12500 3550
+$Comp
+L Device:C C?
+U 1 1 62FF74A2
+P 5250 1950
+F 0 "C?" H 5365 1996 50  0000 L CNN
+F 1 "C" H 5365 1905 50  0000 L CNN
+F 2 "" H 5288 1800 50  0001 C CNN
+F 3 "~" H 5250 1950 50  0001 C CNN
+	1    5250 1950
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:Conn_01x02_Male J?
+U 1 1 62FF9F9D
+P 4750 1900
+F 0 "J?" H 4550 1900 50  0000 C CNN
+F 1 "power" H 4550 1800 50  0000 C CNN
+F 2 "" H 4750 1900 50  0001 C CNN
+F 3 "~" H 4750 1900 50  0001 C CNN
+	1    4750 1900
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 63047AC0
+P 5600 1950
+F 0 "C?" H 5715 1996 50  0000 L CNN
+F 1 "C" H 5715 1905 50  0000 L CNN
+F 2 "" H 5638 1800 50  0001 C CNN
+F 3 "~" H 5600 1950 50  0001 C CNN
+	1    5600 1950
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4950 1900 5000 1900
+Wire Wire Line
+	5000 1900 5000 1750
+Wire Wire Line
+	5000 1750 5250 1750
+Wire Wire Line
+	5250 1750 5250 1800
+Wire Wire Line
+	5250 1750 5600 1750
+Wire Wire Line
+	5600 1750 5600 1800
+Connection ~ 5250 1750
+Wire Wire Line
+	4950 2000 5000 2000
+Wire Wire Line
+	5000 2000 5000 2150
+Wire Wire Line
+	5000 2150 5250 2150
+Wire Wire Line
+	5250 2150 5250 2100
+Wire Wire Line
+	5250 2150 5600 2150
+Wire Wire Line
+	5600 2150 5600 2100
+Connection ~ 5250 2150
+$Comp
+L power:VDD #PWR?
+U 1 1 63172980
+P 5000 1700
+F 0 "#PWR?" H 5000 1550 50  0001 C CNN
+F 1 "VDD" H 5015 1873 50  0000 C CNN
+F 2 "" H 5000 1700 50  0001 C CNN
+F 3 "" H 5000 1700 50  0001 C CNN
+	1    5000 1700
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 63174DFB
+P 5000 2200
+F 0 "#PWR?" H 5000 1950 50  0001 C CNN
+F 1 "GND" H 5005 2027 50  0000 C CNN
+F 2 "" H 5000 2200 50  0001 C CNN
+F 3 "" H 5000 2200 50  0001 C CNN
+	1    5000 2200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5000 1700 5000 1750
+Connection ~ 5000 1750
+Wire Wire Line
+	5000 2200 5000 2150
+Connection ~ 5000 2150
+$EndSCHEMATC

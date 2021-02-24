@@ -3,15 +3,15 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 36 39
-Title ""
-Date ""
-Rev ""
+Sheet 36 48
+Title "RAM address control"
+Date "2021-02-24"
+Rev "V1.3"
 Comp ""
 Comment1 ""
 Comment2 ""
 Comment3 ""
-Comment4 ""
+Comment4 "Author: Vitor Henrique Andrade Helfensteller Straggiotti Silva"
 $EndDescr
 Text HLabel 8700 2650 2    50   3State ~ 0
 Bus_0
