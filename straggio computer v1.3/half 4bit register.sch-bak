@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 47 48
+Sheet 47 53
 Title "Half 4bit register"
 Date "2021-02-24"
 Rev "V1.3"
