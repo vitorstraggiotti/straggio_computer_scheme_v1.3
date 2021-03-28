@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A2 23386 16535
 encoding utf-8
-Sheet 1 53
+Sheet 1 57
 Title ""
 Date ""
 Rev ""
@@ -350,33 +350,21 @@ Wire Wire Line
 Wire Wire Line
 	15750 5750 15750 7650
 Wire Wire Line
-	15750 7650 13800 7650
-Wire Wire Line
-	13800 7600 15700 7600
-Wire Wire Line
 	15700 7600 15700 5650
 Wire Wire Line
 	15700 5650 15850 5650
 Wire Wire Line
-	15850 5500 15550 5500
+	15850 5500 15600 5500
 Wire Wire Line
-	15550 5500 15550 7500
-Wire Wire Line
-	15550 7500 13800 7500
+	15600 5500 15600 7500
 Wire Wire Line
 	15850 2750 15450 2750
 Wire Wire Line
 	15450 2750 15450 2300
 Wire Wire Line
-	15450 2300 12800 2300
-Wire Wire Line
 	15850 2650 15500 2650
 Wire Wire Line
 	15500 2650 15500 2250
-Wire Wire Line
-	15500 2250 12800 2250
-Wire Wire Line
-	12800 2150 15650 2150
 Wire Wire Line
 	15650 2150 15650 2500
 Wire Wire Line
@@ -861,4 +849,215 @@ Wire Wire Line
 Connection ~ 18350 5500
 Wire Wire Line
 	18350 5500 18350 7900
+Wire Wire Line
+	17350 3200 17450 3200
+Wire Wire Line
+	17450 3200 17450 5200
+Wire Wire Line
+	17450 5200 15450 5200
+Wire Wire Line
+	15450 7450 13900 7450
+Wire Wire Line
+	13900 7450 13900 6500
+Wire Wire Line
+	13900 6500 14000 6500
+Wire Wire Line
+	15450 5200 15450 7450
+Wire Wire Line
+	17350 2900 18500 2900
+Wire Wire Line
+	17350 3000 18500 3000
+Wire Wire Line
+	17350 3100 18500 3100
+Wire Wire Line
+	17450 3200 18500 3200
+Connection ~ 17450 3200
+Wire Wire Line
+	11450 2150 15650 2150
+Wire Wire Line
+	11450 2250 15500 2250
+Wire Wire Line
+	11450 2300 15450 2300
+Wire Wire Line
+	12500 2650 11450 2650
+Wire Wire Line
+	12500 2750 11450 2750
+Wire Wire Line
+	14000 6300 11350 6300
+Wire Wire Line
+	14000 6400 11350 6400
+Wire Wire Line
+	14000 6650 11350 6650
+Wire Wire Line
+	14000 6750 11350 6750
+Wire Wire Line
+	14000 6850 11350 6850
+Wire Wire Line
+	14000 6950 11350 6950
+Wire Wire Line
+	14000 7050 11350 7050
+Wire Wire Line
+	14000 7150 11350 7150
+Wire Wire Line
+	14000 7250 11350 7250
+Wire Wire Line
+	11350 7500 15600 7500
+Wire Wire Line
+	11350 7600 15700 7600
+Wire Wire Line
+	11350 7650 15750 7650
+Wire Wire Line
+	14100 9550 11500 9550
+Wire Wire Line
+	14100 9650 11500 9650
+Wire Wire Line
+	11500 9750 14100 9750
+Wire Wire Line
+	14100 9850 11500 9850
+Wire Wire Line
+	14100 9950 11500 9950
+Wire Wire Line
+	14100 10050 11500 10050
+Wire Wire Line
+	14100 10150 11500 10150
+Wire Wire Line
+	14100 10250 11500 10250
+Wire Wire Line
+	14100 10350 11500 10350
+Wire Wire Line
+	14100 10450 11500 10450
+Wire Wire Line
+	14100 10550 11500 10550
+Wire Wire Line
+	14100 10650 11500 10650
+Wire Wire Line
+	14100 10750 11500 10750
+Wire Wire Line
+	14100 10850 11500 10850
+Wire Wire Line
+	14100 10950 11500 10950
+Wire Wire Line
+	14100 11050 11500 11050
+Wire Wire Line
+	14100 11200 11500 11200
+Wire Wire Line
+	14100 11300 11500 11300
+Wire Wire Line
+	14100 11400 11500 11400
+Wire Wire Line
+	14100 11500 11500 11500
+Wire Wire Line
+	14100 11600 11500 11600
+Wire Wire Line
+	14100 11700 11500 11700
+Wire Wire Line
+	14100 11800 11500 11800
+Wire Wire Line
+	14100 11900 11500 11900
+Wire Wire Line
+	14100 12000 11500 12000
+Wire Wire Line
+	14100 12100 11500 12100
+Wire Wire Line
+	14100 12200 11500 12200
+Wire Wire Line
+	14100 12300 11500 12300
+Wire Wire Line
+	14100 12400 11500 12400
+Wire Wire Line
+	11500 12500 14100 12500
+Wire Wire Line
+	14100 12600 11500 12600
+Wire Wire Line
+	14100 12700 11500 12700
+$Sheet
+S 6000 9550 1700 3500
+U 60CED218
+F0 "Work register decoder" 50
+F1 "Work register decoder.sch" 50
+F2 "Instruc_reg_bus_0" I L 6000 9650 50 
+F3 "Instruc_reg_bus_1" I L 6000 9750 50 
+F4 "Instruc_reg_bus_2" I L 6000 9850 50 
+F5 "Instruc_reg_bus_3" I L 6000 9950 50 
+F6 "Instruc_reg_bus_4" I L 6000 10050 50 
+F7 "Instruc_reg_bus_5" I L 6000 10150 50 
+F8 "Instruc_reg_bus_6" I L 6000 10250 50 
+F9 "Instruc_reg_bus_7" I L 6000 10350 50 
+F10 "Reg_A" I L 6000 10500 50 
+F11 "Reg_B" I L 6000 10600 50 
+F12 "Clock_Enable" I L 6000 10750 50 
+F13 "Clock_Set" I L 6000 10850 50 
+F14 "Set_reg_R0" O R 7700 9650 50 
+F15 "Set_reg_R1" O R 7700 9750 50 
+F16 "Set_reg_R2" O R 7700 9850 50 
+F17 "Set_reg_R3" O R 7700 9950 50 
+F18 "Set_reg_R4" O R 7700 10050 50 
+F19 "Set_reg_R5" O R 7700 10150 50 
+F20 "Set_reg_R6" O R 7700 10250 50 
+F21 "Set_reg_R7" O R 7700 10350 50 
+F22 "Set_reg_R8" O R 7700 10450 50 
+F23 "Set_reg_R9" O R 7700 10550 50 
+F24 "Set_reg_R10" O R 7700 10650 50 
+F25 "Set_reg_R11" O R 7700 10750 50 
+F26 "Set_reg_R12" O R 7700 10850 50 
+F27 "Set_reg_R13" O R 7700 10950 50 
+F28 "Set_reg_R14" O R 7700 11050 50 
+F29 "Set_reg_R15" O R 7700 11150 50 
+F30 "Enable_reg_R0" O R 7700 11300 50 
+F31 "Enable_reg_R1" O R 7700 11400 50 
+F32 "Enable_reg_R2" O R 7700 11500 50 
+F33 "Enable_reg_R3" O R 7700 11600 50 
+F34 "Enable_reg_R4" O R 7700 11700 50 
+F35 "Enable_reg_R5" O R 7700 11800 50 
+F36 "Enable_reg_R6" O R 7700 11900 50 
+F37 "Enable_reg_R7" O R 7700 12000 50 
+F38 "Enable_reg_R8" O R 7700 12100 50 
+F39 "Enable_reg_R9" O R 7700 12200 50 
+F40 "Enable_reg_R10" O R 7700 12300 50 
+F41 "Enable_reg_R11" O R 7700 12400 50 
+F42 "Enable_reg_R12" O R 7700 12500 50 
+F43 "Enable_reg_R13" O R 7700 12600 50 
+F44 "Enable_reg_R14" O R 7700 12700 50 
+F45 "Enable_reg_R15" O R 7700 12800 50 
+$EndSheet
+$Sheet
+S 2400 8850 1350 1950
+U 6105809C
+F0 "Instruction register" 50
+F1 "Instruction register.sch" 50
+F2 "Input_bus_0" I L 2400 8950 50 
+F3 "Input_bus_1" I L 2400 9050 50 
+F4 "Input_bus_2" I L 2400 9150 50 
+F5 "Input_bus_3" I L 2400 9250 50 
+F6 "Input_bus_4" I L 2400 9350 50 
+F7 "Input_bus_5" I L 2400 9450 50 
+F8 "Input_bus_6" I L 2400 9550 50 
+F9 "Input_bus_7" I L 2400 9650 50 
+F10 "Input_bus_8" I L 2400 9750 50 
+F11 "Input_bus_9" I L 2400 9850 50 
+F12 "Input_bus_10" I L 2400 9950 50 
+F13 "Input_bus_11" I L 2400 10050 50 
+F14 "Input_bus_12" I L 2400 10150 50 
+F15 "Input_bus_13" I L 2400 10250 50 
+F16 "Input_bus_14" I L 2400 10350 50 
+F17 "Input_bus_15" I L 2400 10450 50 
+F18 "Set_reg" I L 2400 10600 50 
+F19 "Enable_reg" I L 2400 10700 50 
+F20 "Output_bus_0" O R 3750 8950 50 
+F21 "Output_bus_1" O R 3750 9050 50 
+F22 "Output_bus_2" O R 3750 9150 50 
+F23 "Output_bus_3" O R 3750 9250 50 
+F24 "Output_bus_4" O R 3750 9350 50 
+F25 "Output_bus_5" O R 3750 9450 50 
+F26 "Output_bus_6" O R 3750 9550 50 
+F27 "Output_bus_7" O R 3750 9650 50 
+F28 "Output_bus_8" O R 3750 9750 50 
+F29 "Output_bus_9" O R 3750 9850 50 
+F30 "Output_bus_10" O R 3750 9950 50 
+F31 "Output_bus_11" O R 3750 10050 50 
+F32 "Output_bus_12" O R 3750 10150 50 
+F33 "Output_bus_13" O R 3750 10250 50 
+F34 "Output_bus_14" O R 3750 10350 50 
+F35 "Output_bus_15" O R 3750 10450 50 
+$EndSheet
 $EndSCHEMATC

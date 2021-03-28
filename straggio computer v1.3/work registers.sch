@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A1 33110 23386
 encoding utf-8
-Sheet 2 53
+Sheet 2 57
 Title "Work registers"
 Date "2021-02-21"
 Rev "v1.3"

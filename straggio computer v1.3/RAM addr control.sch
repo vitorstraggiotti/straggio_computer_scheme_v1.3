@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 36 53
+Sheet 36 57
 Title "RAM address control"
 Date "2021-02-24"
 Rev "V1.3"

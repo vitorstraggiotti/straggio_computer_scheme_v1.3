@@ -1,0 +1,18 @@
+# Documentation for Straggio computer v1.3
+
+# Author: Vitor Henrique Andrade Helfensteller Straggiotti Silva 
+# Date: 28/03/2021 (dd/mm/yyyy)
+
+INSTRUCTIONS INTERPRETATION
+
+ All instructions are 16 bits and is subdivided as follows:
+
+  15   14  13  12  11  10   9   8   7   6   5   4   3   2   1   0
+   X    X   X   X   X   X   X   X   X   X   X   X   X   X   X   X 
+| -- | -------------------------- | -------------- | ------------- |
+  ||            ||                       ||                ||
+  ||            ||                       ||                \|==> Register B 
+  ||            ||                       \|==> Register A
+  ||            \|==> Select operation
+  ||
+  \|==> ALU or general instruction
