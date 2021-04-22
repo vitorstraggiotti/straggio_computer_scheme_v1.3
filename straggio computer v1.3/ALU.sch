@@ -201,8 +201,8 @@ sch = \npcb =
 $Sheet
 S 13100 8450 1550 2200
 U 603BE6C9
-F0 "NOTer and Rotate" 50
-F1 "NOTer and Rotate.sch" 50
+F0 "NOTer Rotate and Shift" 50
+F1 "NOTer Rotate and Shift.sch" 50
 F2 "A_0" I L 13100 8550 50 
 F3 "A_1" I L 13100 8650 50 
 F4 "A_2" I L 13100 8750 50 
@@ -1492,4 +1492,6 @@ Wire Wire Line
 	19650 10000 19650 6300
 Wire Wire Line
 	19650 6300 20350 6300
+Text Notes 9150 9950 0    50   ~ 0
+Adicionar instruções:\n  Enable_shift_left_with_0\n  Enable_shift_right_with_0\n  Enable_shift_left_with_1\n  Enable_shift_right_with_1
 $EndSCHEMATC

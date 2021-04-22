@@ -4,14 +4,14 @@ EELAYER END
 $Descr A1 33110 23386
 encoding utf-8
 Sheet 1 1
-Title ""
-Date ""
-Rev ""
+Title "4 by 4 multiplier"
+Date "2021-04-19"
+Rev "v1.3"
 Comp ""
 Comment1 ""
 Comment2 ""
 Comment3 ""
-Comment4 ""
+Comment4 "Author: Vitor Henrique Andrade Helfensteller Straggiotti Silva "
 $EndDescr
 $Comp
 L 74xx:74HC86 U?
@@ -11470,12 +11470,6 @@ Wire Wire Line
 Wire Notes Line
 	9350 5250 9350 3800
 Wire Wire Line
-	15850 1400 15850 3200
-Wire Wire Line
-	22300 1450 22300 3200
-Wire Wire Line
-	28750 1500 28750 3200
-Wire Wire Line
 	9150 4200 9150 4250
 Wire Wire Line
 	9150 4250 9450 4250
@@ -11615,10 +11609,6 @@ Wire Wire Line
 Connection ~ 9150 7650
 Wire Wire Line
 	9150 7650 9150 7700
-Wire Wire Line
-	6950 10450 6950 10500
-Wire Wire Line
-	6950 10450 8200 10450
 $Comp
 L Transistor_FET:2N7000 Q?
 U 1 1 70D89237
@@ -11884,9 +11874,9 @@ Connection ~ 16900 2500
 Wire Wire Line
 	16900 2500 16900 2550
 Wire Wire Line
-	7050 3650 8200 3650
+	7900 3650 8200 3650
 Wire Wire Line
-	6800 1950 8200 1950
+	7500 1950 8200 1950
 Wire Wire Line
 	8200 2750 8200 1950
 Connection ~ 8200 1950
@@ -11895,7 +11885,7 @@ Wire Wire Line
 Wire Wire Line
 	8100 3200 8300 3200
 Wire Wire Line
-	8100 800  8100 3200
+	8100 1750 8100 3200
 Connection ~ 8100 3200
 Wire Wire Line
 	11950 2500 11950 5000
@@ -12199,7 +12189,7 @@ Connection ~ 28750 3200
 Wire Wire Line
 	28750 3200 28750 3750
 Wire Wire Line
-	29800 2500 31900 2500
+	29800 2500 31000 2500
 Wire Wire Line
 	14450 3750 15850 3750
 Connection ~ 15850 3750
@@ -12227,8 +12217,6 @@ Wire Wire Line
 Connection ~ 28750 3750
 Wire Wire Line
 	28750 3750 28750 7150
-Wire Wire Line
-	27200 5350 31900 5350
 Wire Wire Line
 	9650 7150 13650 7150
 Wire Wire Line
@@ -12283,7 +12271,7 @@ Connection ~ 28750 7150
 Wire Wire Line
 	28750 7150 28750 10550
 Wire Wire Line
-	27200 8750 31200 8750
+	27200 8750 30200 8750
 Wire Wire Line
 	9450 7650 9450 10550
 Wire Wire Line
@@ -12344,8 +12332,6 @@ Wire Wire Line
 	27300 10450 27300 11800
 Wire Wire Line
 	27350 10550 28750 10550
-Wire Wire Line
-	27200 12150 31350 12150
 Wire Wire Line
 	9450 11050 9450 13950
 Wire Wire Line
@@ -12411,15 +12397,13 @@ Wire Wire Line
 Wire Wire Line
 	26950 13600 26950 13850
 Wire Wire Line
-	22600 14500 22600 18100
+	22600 14500 22600 17350
 Wire Wire Line
 	21300 14500 22600 14500
 Wire Wire Line
-	15850 16000 15850 18700
-Wire Wire Line
 	15450 16000 15850 16000
 Wire Wire Line
-	16200 14500 16200 18700
+	16200 14500 16200 17400
 Wire Wire Line
 	24300 28650 24250 28650
 Wire Wire Line
@@ -12438,8 +12422,6 @@ Wire Wire Line
 	8100 4950 8100 8350
 Wire Wire Line
 	8200 7900 8200 7050
-Wire Wire Line
-	6750 7050 8200 7050
 Connection ~ 8200 7050
 Wire Wire Line
 	8200 7050 14400 7050
@@ -12455,38 +12437,6 @@ Wire Wire Line
 	8200 10450 14400 10450
 Wire Wire Line
 	8100 11750 8300 11750
-Wire Notes Line width 16 style dash_dot rgb(255, 0, 0)
-	2000 18050 2000 19000
-Wire Notes Line width 16 style dash_dot rgb(255, 0, 0)
-	2000 19000 9150 19000
-Wire Notes Line width 16 style dash_dot rgb(255, 0, 0)
-	9150 19000 9150 18050
-Wire Notes Line width 16 style dash_dot rgb(255, 0, 0)
-	9150 18050 2000 18050
-Wire Notes Line width 16 style dash_dot rgb(0, 255, 0)
-	2000 21300 9150 21300
-Wire Notes Line width 16 style dash_dot rgb(0, 255, 0)
-	9150 21300 9150 19200
-Wire Notes Line width 16 style dash_dot rgb(0, 255, 0)
-	9150 19200 2000 19200
-Wire Notes Line width 16 style dash_dot rgb(0, 255, 0)
-	2000 19200 2000 21300
-Wire Notes Line width 16 style dash_dot rgb(0, 0, 0)
-	9600 17900 9600 17200
-Wire Notes Line width 16 style dash_dot rgb(0, 0, 0)
-	9600 17200 1950 17200
-Wire Notes Line width 16 style dash_dot rgb(0, 0, 0)
-	1950 17200 1950 17900
-Wire Notes Line width 16 style dash_dot rgb(0, 0, 0)
-	1950 17900 9600 17900
-Wire Notes Line width 16 style dash_dot rgb(0, 0, 0)
-	1550 18050 1850 18050
-Wire Notes Line width 16 style dash_dot rgb(0, 0, 0)
-	1850 18050 1850 21000
-Wire Notes Line width 16 style dash_dot rgb(0, 0, 0)
-	1850 21000 1550 21000
-Wire Notes Line width 16 style dash_dot rgb(0, 0, 0)
-	1550 21000 1550 18050
 Wire Wire Line
 	7700 22000 7700 22350
 Wire Wire Line
@@ -12498,5 +12448,107 @@ Wire Wire Line
 Wire Wire Line
 	24950 16000 24950 17200
 Wire Wire Line
-	25400 14500 30900 14500
+	25400 14500 30300 14500
+Wire Wire Line
+	30150 5350 30150 2600
+Wire Wire Line
+	30150 2600 31000 2600
+Wire Wire Line
+	27200 5350 30150 5350
+Wire Wire Line
+	31000 2700 30200 2700
+Wire Wire Line
+	30200 2700 30200 8750
+Wire Wire Line
+	30250 12150 30250 2800
+Wire Wire Line
+	30250 2800 31000 2800
+Wire Wire Line
+	27200 12150 30250 12150
+Wire Wire Line
+	31000 2900 30300 2900
+Wire Wire Line
+	30300 2900 30300 14500
+Wire Wire Line
+	22600 17350 30350 17350
+Wire Wire Line
+	30350 17350 30350 3000
+Wire Wire Line
+	30350 3000 31000 3000
+Wire Wire Line
+	31000 3100 30400 3100
+Wire Wire Line
+	30400 3100 30400 17400
+Wire Wire Line
+	30400 17400 16200 17400
+Wire Wire Line
+	15850 17450 30450 17450
+Wire Wire Line
+	30450 17450 30450 3200
+Wire Wire Line
+	30450 3200 31000 3200
+Wire Wire Line
+	15850 16000 15850 17450
+Wire Wire Line
+	8100 1750 7500 1750
+Wire Wire Line
+	7500 1650 15850 1650
+Wire Wire Line
+	15850 1650 15850 3200
+Wire Wire Line
+	7500 1550 22300 1550
+Wire Wire Line
+	22300 1550 22300 3200
+Wire Wire Line
+	7500 1450 28750 1450
+Wire Wire Line
+	28750 1450 28750 3200
+Wire Wire Line
+	7900 3650 7900 2050
+Wire Wire Line
+	7900 2050 7500 2050
+Wire Wire Line
+	7500 2150 7850 2150
+Wire Wire Line
+	7850 2150 7850 7050
+Wire Wire Line
+	7850 7050 8200 7050
+Wire Wire Line
+	7500 2250 7800 2250
+Wire Wire Line
+	7800 2250 7800 10450
+Wire Wire Line
+	7800 10450 8200 10450
+Text GLabel 7500 1450 0    50   Input ~ 0
+a0
+Text GLabel 7500 1550 0    50   Input ~ 0
+a1
+Text GLabel 7500 1650 0    50   Input ~ 0
+a2
+Text GLabel 7500 1750 0    50   Input ~ 0
+a3
+Text GLabel 7500 1950 0    50   Input ~ 0
+b0
+Text GLabel 7500 2050 0    50   Input ~ 0
+b1
+Text GLabel 7500 2150 0    50   Input ~ 0
+b2
+Text GLabel 7500 2250 0    50   Input ~ 0
+b3
+Text GLabel 31000 2500 2    50   Output ~ 0
+p0
+Text GLabel 31000 2600 2    50   Output ~ 0
+p1
+Text GLabel 31000 2700 2    50   Output ~ 0
+p2
+Text GLabel 31000 2800 2    50   Output ~ 0
+p3
+Text GLabel 31000 2900 2    50   Output ~ 0
+p4
+Text GLabel 31000 3000 2    50   Output ~ 0
+p5
+Text GLabel 31000 3100 2    50   Output ~ 0
+p6
+Text GLabel 31000 3200 2    50   Output ~ 0
+p7
 $EndSCHEMATC

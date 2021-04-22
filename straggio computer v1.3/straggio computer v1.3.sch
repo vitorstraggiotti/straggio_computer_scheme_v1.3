@@ -1021,7 +1021,7 @@ F44 "Enable_reg_R14" O R 7700 12700 50
 F45 "Enable_reg_R15" O R 7700 12800 50 
 $EndSheet
 $Sheet
-S 2400 8850 1350 1950
+S 2400 8850 1450 1950
 U 6105809C
 F0 "Instruction register" 50
 F1 "Instruction register.sch" 50
@@ -1043,21 +1043,21 @@ F16 "Input_bus_14" I L 2400 10350 50
 F17 "Input_bus_15" I L 2400 10450 50 
 F18 "Set_reg" I L 2400 10600 50 
 F19 "Enable_reg" I L 2400 10700 50 
-F20 "Output_bus_0" O R 3750 8950 50 
-F21 "Output_bus_1" O R 3750 9050 50 
-F22 "Output_bus_2" O R 3750 9150 50 
-F23 "Output_bus_3" O R 3750 9250 50 
-F24 "Output_bus_4" O R 3750 9350 50 
-F25 "Output_bus_5" O R 3750 9450 50 
-F26 "Output_bus_6" O R 3750 9550 50 
-F27 "Output_bus_7" O R 3750 9650 50 
-F28 "Output_bus_8" O R 3750 9750 50 
-F29 "Output_bus_9" O R 3750 9850 50 
-F30 "Output_bus_10" O R 3750 9950 50 
-F31 "Output_bus_11" O R 3750 10050 50 
-F32 "Output_bus_12" O R 3750 10150 50 
-F33 "Output_bus_13" O R 3750 10250 50 
-F34 "Output_bus_14" O R 3750 10350 50 
-F35 "Output_bus_15" O R 3750 10450 50 
+F20 "Instruction_bus_0" O R 3850 8950 50 
+F21 "Instruction_bus_1" O R 3850 9050 50 
+F22 "Instruction_bus_2" O R 3850 9150 50 
+F23 "Instruction_bus_3" O R 3850 9250 50 
+F24 "Instruction_bus_4" O R 3850 9350 50 
+F25 "Instruction_bus_5" O R 3850 9450 50 
+F26 "Instruction_bus_6" O R 3850 9550 50 
+F27 "Instruction_bus_7" O R 3850 9650 50 
+F28 "Instruction_bus_8" O R 3850 9750 50 
+F29 "Instruction_bus_9" O R 3850 9850 50 
+F30 "Instruction_bus_10" O R 3850 9950 50 
+F31 "Instruction_bus_11" O R 3850 10050 50 
+F32 "Instruction_bus_12" O R 3850 10150 50 
+F33 "Instruction_bus_13" O R 3850 10250 50 
+F34 "Instruction_bus_14" O R 3850 10350 50 
+F35 "Instruction_bus_15" O R 3850 10450 50 
 $EndSheet
 $EndSCHEMATC

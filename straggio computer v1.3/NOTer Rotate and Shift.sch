@@ -49,7 +49,7 @@ Text HLabel 1500 2800 0    50   Input ~ 0
 Enable_rotate_left
 Text HLabel 1500 2900 0    50   Input ~ 0
 Enable_rotate_right
-Text HLabel 1500 3000 0    50   Input ~ 0
+Text HLabel 1500 3550 0    50   Input ~ 0
 Enable_NOTer
 Text HLabel 1500 2650 0    50   Input ~ 0
 Rotate_carry_in
@@ -87,4 +87,12 @@ Text HLabel 2000 2500 2    50   3State ~ 0
 C_15
 Text HLabel 2000 2650 2    50   3State ~ 0
 Rotate_carry_out
+Text HLabel 1500 3100 0    50   Input ~ 0
+Enable_shift_left_with_0
+Text HLabel 1500 3200 0    50   Input ~ 0
+Enable_shift_right_with_0
+Text HLabel 1500 3300 0    50   Input ~ 0
+Enable_shift_left_with_1
+Text HLabel 1500 3400 0    50   Input ~ 0
+Enable_shift_right_with_1
 $EndSCHEMATC

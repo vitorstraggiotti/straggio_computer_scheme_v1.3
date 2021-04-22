@@ -49,38 +49,36 @@ Text HLabel 3150 2000 0    50   Input ~ 0
 Set_reg
 Text HLabel 3150 2100 0    50   Input ~ 0
 Enable_reg
-Text HLabel 5750 2250 2    50   Output ~ 0
-Output_bus_0
 Text HLabel 5750 2350 2    50   Output ~ 0
-Output_bus_1
+Output_instruction_bus_1
 Text HLabel 5750 2450 2    50   Output ~ 0
-Output_bus_2
+Output_instruction_bus_2
 Text HLabel 5750 2550 2    50   Output ~ 0
-Output_bus_3
+Output_instruction_bus_3
 Text HLabel 5750 2650 2    50   Output ~ 0
-Output_bus_4
+Output_instruction_bus_4
 Text HLabel 5750 2750 2    50   Output ~ 0
-Output_bus_5
+Output_instruction_bus_5
 Text HLabel 5750 2850 2    50   Output ~ 0
-Output_bus_6
+Output_instruction_bus_6
 Text HLabel 5750 2950 2    50   Output ~ 0
-Output_bus_7
+Instruction_bus_7
 Text HLabel 5750 3050 2    50   Output ~ 0
-Output_bus_8
+Instruction_bus_8
 Text HLabel 5750 3150 2    50   Output ~ 0
-Output_bus_9
+Instruction_bus_9
 Text HLabel 5750 3250 2    50   Output ~ 0
-Output_bus_10
+Instruction_bus_10
 Text HLabel 5750 3350 2    50   Output ~ 0
-Output_bus_11
+Instruction_bus_11
 Text HLabel 5750 3450 2    50   Output ~ 0
-Output_bus_12
+Instruction_bus_12
 Text HLabel 5750 3550 2    50   Output ~ 0
-Output_bus_13
+Instruction_bus_13
 Text HLabel 5750 3650 2    50   Output ~ 0
-Output_bus_14
+Instruction_bus_14
 Text HLabel 5750 3750 2    50   Output ~ 0
-Output_bus_15
+Instruction_bus_15
 $Sheet
 S 3900 1900 1200 1150
 U 6105C029
@@ -275,4 +273,6 @@ Wire Wire Line
 	5100 2450 5750 2450
 Wire Wire Line
 	5750 2550 5100 2550
+Text HLabel 5750 2250 2    50   Output ~ 0
+Output_instruction_bus_0
 $EndSCHEMATC
