@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 40 57
+Sheet 40 60
 Title "ALU input B"
 Date "2021-02-24"
 Rev "V1.3"

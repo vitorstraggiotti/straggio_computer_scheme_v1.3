@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 55 57
+Sheet 55 60
 Title "Instruction register"
 Date "2021-03-28"
 Rev "v1.3"
