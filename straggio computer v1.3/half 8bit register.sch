@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A3 16535 11693
 encoding utf-8
-Sheet 43 60
+Sheet 43 62
 Title "Half 8bit register"
 Date "2021-02-24"
 Rev "v1.3"

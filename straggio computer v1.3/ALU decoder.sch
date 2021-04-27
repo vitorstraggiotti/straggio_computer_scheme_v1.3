@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 45 60
+Sheet 46 62
 Title ""
 Date ""
 Rev ""
@@ -31,28 +31,30 @@ Text HLabel 2500 1000 2    50   Output ~ 0
 Enable_ADDer_0000000
 Text Notes 2400 850  0    50   ~ 0
 Compare instruction is out of range
-Text HLabel 2500 1100 2    50   Output ~ 0
-Enable_ANDer_0000001
 Text HLabel 2500 1200 2    50   Output ~ 0
-Enable_ORer_0000010
+Enable_ANDer_0000010
 Text HLabel 2500 1300 2    50   Output ~ 0
-Enable_rotate_left_0000011
+Enable_ORer_0000011
 Text HLabel 2500 1400 2    50   Output ~ 0
-Enable_rotate_right_0000100
+Enable_rotate_left_0000100
 Text HLabel 2500 1500 2    50   Output ~ 0
-Enable_shift_left_0_0000101
+Enable_rotate_right_0000101
 Text HLabel 2500 1600 2    50   Output ~ 0
-Enable_shift_right_0_0000110
+Enable_shift_left_0_0000110
 Text HLabel 2500 1700 2    50   Output ~ 0
-Enable_shift_left_1_0000111
+Enable_shift_right_0_0000111
 Text HLabel 2500 1800 2    50   Output ~ 0
-Enable_shift_right_1_0001000
+Enable_shift_left_1_0001000
 Text HLabel 2500 1900 2    50   Output ~ 0
-Enable_NOTer_0001001
+Enable_shift_right_1_0001001
 Text HLabel 2500 2000 2    50   Output ~ 0
-Enable_XORer_0001010
+Enable_NOTer_0001010
 Text HLabel 2500 2100 2    50   Output ~ 0
-Enable_multiplier_0001011
+Enable_XORer_0001011
 Text HLabel 2500 2200 2    50   Output ~ 0
+Enable_multiplier_0001100
+Text HLabel 2500 2300 2    50   Output ~ 0
 Compare_1111111
+Text HLabel 2500 1100 2    50   Output ~ 0
+Enable_subtraction_0000001
 $EndSCHEMATC

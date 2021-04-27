@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 50 60
+Sheet 50 62
 Title "ALU output register"
 Date "2021-04-22"
 Rev "V1.3"

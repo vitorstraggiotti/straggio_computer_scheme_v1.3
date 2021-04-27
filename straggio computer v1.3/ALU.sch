@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A1 33110 23386
 encoding utf-8
-Sheet 40 60
+Sheet 40 62
 Title ""
 Date ""
 Rev ""
@@ -83,20 +83,6 @@ Text HLabel 10900 11650 0    50   Input ~ 0
 Bus_A_pull_down
 Text HLabel 10900 11850 0    50   Input ~ 0
 Carry_in
-Text HLabel 8100 12300 0    50   Input ~ 0
-Operation_bit_0
-Text HLabel 8100 12400 0    50   Input ~ 0
-Operation_bit_1
-Text HLabel 8100 12500 0    50   Input ~ 0
-Operation_bit_2
-Text HLabel 8100 12600 0    50   Input ~ 0
-Operation_bit_3
-Text HLabel 8100 12700 0    50   Input ~ 0
-Operation_bit_4
-Text HLabel 8100 12800 0    50   Input ~ 0
-Operation_bit_5
-Text HLabel 8100 12900 0    50   Input ~ 0
-Operation_bit_6
 Text HLabel 21500 11750 2    50   Output ~ 0
 Flag_A_larger
 Text HLabel 21500 11850 2    50   Output ~ 0
@@ -137,65 +123,6 @@ Text HLabel 21500 9750 2    50   Output ~ 0
 C_14
 Text HLabel 21500 9850 2    50   Output ~ 0
 C_15
-$Sheet
-S 13650 8250 1300 3850
-U 603B78A6
-F0 "ADDer" 50
-F1 "ADDer.sch" 50
-F2 "A_0" I L 13650 8350 50 
-F3 "A_1" I L 13650 8450 50 
-F4 "A_2" I L 13650 8550 50 
-F5 "A_3" I L 13650 8650 50 
-F6 "A_4" I L 13650 8750 50 
-F7 "A_5" I L 13650 8850 50 
-F8 "A_6" I L 13650 8950 50 
-F9 "A_7" I L 13650 9050 50 
-F10 "A_8" I L 13650 9150 50 
-F11 "A_9" I L 13650 9250 50 
-F12 "A_10" I L 13650 9350 50 
-F13 "A_11" I L 13650 9450 50 
-F14 "A_12" I L 13650 9550 50 
-F15 "A_13" I L 13650 9650 50 
-F16 "A_14" I L 13650 9750 50 
-F17 "A_15" I L 13650 9850 50 
-F18 "B_0" I L 13650 10000 50 
-F19 "B_1" I L 13650 10100 50 
-F20 "B_2" I L 13650 10200 50 
-F21 "B_3" I L 13650 10300 50 
-F22 "B_4" I L 13650 10400 50 
-F23 "B_5" I L 13650 10500 50 
-F24 "B_6" I L 13650 10600 50 
-F25 "B_7" I L 13650 10700 50 
-F26 "B_8" I L 13650 10800 50 
-F27 "B_9" I L 13650 10900 50 
-F28 "B_10" I L 13650 11000 50 
-F29 "B_11" I L 13650 11100 50 
-F30 "B_12" I L 13650 11200 50 
-F31 "B_13" I L 13650 11300 50 
-F32 "B_14" I L 13650 11400 50 
-F33 "B_15" I L 13650 11500 50 
-F34 "Bus_A_pull_down" I L 13650 11650 50 
-F35 "Zero_carry_in" I L 13650 11750 50 
-F36 "Enable_adder" I L 13650 11950 50 
-F37 "C_0" T R 14950 8350 50 
-F38 "C_1" T R 14950 8450 50 
-F39 "C_2" T R 14950 8550 50 
-F40 "C_3" T R 14950 8650 50 
-F41 "C_4" T R 14950 8750 50 
-F42 "C_5" T R 14950 8850 50 
-F43 "C_6" T R 14950 8950 50 
-F44 "C_7" T R 14950 9050 50 
-F45 "C_8" T R 14950 9150 50 
-F46 "C_9" T R 14950 9250 50 
-F47 "C_10" T R 14950 9350 50 
-F48 "C_11" T R 14950 9450 50 
-F49 "C_12" T R 14950 9550 50 
-F50 "C_13" T R 14950 9650 50 
-F51 "C_14" T R 14950 9750 50 
-F52 "C_15" T R 14950 9850 50 
-F53 "adder_carry_in" I L 13650 11850 50 
-F54 "adder_carry_out" O R 14950 10000 50 
-$EndSheet
 Text Notes 14200 8500 0    50   ~ 0
 sch = \npcb = 
 $Sheet
@@ -358,8 +285,8 @@ F50 "C_15" T R 19150 13850 50
 F51 "Flag_A_larger" O R 19150 14000 50 
 F52 "Flag_equal" O R 19150 14100 50 
 $EndSheet
-Text Notes 13650 15600 0    50   ~ 0
-sch = \npcb = 
+Text Notes 13650 15500 0    50   ~ 0
+sch = OK\npcb = 
 Text Notes 17900 12100 0    50   ~ 0
 sch = \npcb = 
 Text Notes 17900 16000 0    50   ~ 0
@@ -1343,23 +1270,9 @@ Connection ~ 19350 9650
 Connection ~ 19300 9750
 Connection ~ 19250 9850
 Wire Wire Line
-	8100 12300 8650 12300
+	10550 12100 11550 12100
 Wire Wire Line
-	8100 12400 8650 12400
-Wire Wire Line
-	8100 12500 8650 12500
-Wire Wire Line
-	8100 12600 8650 12600
-Wire Wire Line
-	8100 12700 8650 12700
-Wire Wire Line
-	8100 12800 8650 12800
-Wire Wire Line
-	8100 12900 8650 12900
-Wire Wire Line
-	10550 12200 11550 12200
-Wire Wire Line
-	11550 12200 11550 11950
+	11550 12100 11550 11950
 Wire Wire Line
 	11550 11950 13650 11950
 Wire Wire Line
@@ -1410,8 +1323,6 @@ Wire Wire Line
 	21100 14100 21100 11850
 Wire Wire Line
 	21100 11850 21500 11850
-Text Notes 9700 14050 0    50   ~ 0
-Adicionar instruções:\n  Enable_shift_left_with_0\n  Enable_shift_right_with_0\n  Enable_shift_left_with_1\n  Enable_shift_right_with_1
 Text HLabel 21500 9950 2    50   Output ~ 0
 C_16
 Text HLabel 21500 10050 2    50   Output ~ 0
@@ -1905,32 +1816,6 @@ Wire Wire Line
 Connection ~ 16200 15500
 Wire Wire Line
 	17900 19600 11500 19600
-$Sheet
-S 8600 12100 1950 1400
-U 61CC22FC
-F0 "ALU decoder" 50
-F1 "ALU decoder.sch" 50
-F2 "Operation_bit_0" I L 8600 12200 50 
-F3 "Operation_bit_1" I L 8600 12300 50 
-F4 "Operation_bit_2" I L 8600 12400 50 
-F5 "Operation_bit_3" I L 8600 12500 50 
-F6 "Operation_bit_4" I L 8600 12600 50 
-F7 "Operation_bit_5" I L 8600 12700 50 
-F8 "Operation_bit_6" I L 8600 12800 50 
-F9 "Enable_ADDer_0000000" O R 10550 12200 50 
-F10 "Enable_ANDer_0000001" O R 10550 12300 50 
-F11 "Enable_ORer_0000010" O R 10550 12400 50 
-F12 "Enable_rotate_left_0000011" O R 10550 12500 50 
-F13 "Enable_rotate_right_0000100" O R 10550 12600 50 
-F14 "Enable_shift_left_0_0000101" O R 10550 12700 50 
-F15 "Enable_shift_right_0_0000110" O R 10550 12800 50 
-F16 "Enable_shift_left_1_0000111" O R 10550 12900 50 
-F17 "Enable_shift_right_1_0001000" O R 10550 13000 50 
-F18 "Enable_NOTer_0001001" O R 10550 13100 50 
-F19 "Enable_XORer_0001010" O R 10550 13200 50 
-F20 "Enable_multiplier_0001011" O R 10550 13300 50 
-F21 "Compare_1111111" O R 10550 13450 50 
-$EndSheet
 Wire Wire Line
 	11550 15650 11550 13200
 Wire Wire Line
@@ -1968,4 +1853,125 @@ Wire Wire Line
 	12350 15000 12350 13000
 Wire Wire Line
 	12350 13000 10550 13000
+Wire Wire Line
+	8050 12700 8600 12700
+Wire Wire Line
+	8050 12600 8600 12600
+Wire Wire Line
+	8050 12500 8600 12500
+Wire Wire Line
+	8050 12400 8600 12400
+Wire Wire Line
+	8050 12300 8600 12300
+Wire Wire Line
+	8050 12200 8600 12200
+Wire Wire Line
+	8050 12100 8600 12100
+Text HLabel 8050 12700 0    50   Input ~ 0
+Operation_bit_6
+Text HLabel 8050 12600 0    50   Input ~ 0
+Operation_bit_5
+Text HLabel 8050 12500 0    50   Input ~ 0
+Operation_bit_4
+Text HLabel 8050 12400 0    50   Input ~ 0
+Operation_bit_3
+Text HLabel 8050 12300 0    50   Input ~ 0
+Operation_bit_2
+Text HLabel 8050 12200 0    50   Input ~ 0
+Operation_bit_1
+Text HLabel 8050 12100 0    50   Input ~ 0
+Operation_bit_0
+$Sheet
+S 8600 12000 1950 1550
+U 61CC22FC
+F0 "ALU decoder" 50
+F1 "ALU decoder.sch" 50
+F2 "Operation_bit_0" I L 8600 12100 50 
+F3 "Operation_bit_1" I L 8600 12200 50 
+F4 "Operation_bit_2" I L 8600 12300 50 
+F5 "Operation_bit_3" I L 8600 12400 50 
+F6 "Operation_bit_4" I L 8600 12500 50 
+F7 "Operation_bit_5" I L 8600 12600 50 
+F8 "Operation_bit_6" I L 8600 12700 50 
+F9 "Compare_1111111" O R 10550 13450 50 
+F10 "Enable_ADDer_0000000" O R 10550 12100 50 
+F11 "Enable_ANDer_0000010" O R 10550 12300 50 
+F12 "Enable_ORer_0000011" O R 10550 12400 50 
+F13 "Enable_rotate_left_0000100" O R 10550 12500 50 
+F14 "Enable_rotate_right_0000101" O R 10550 12600 50 
+F15 "Enable_shift_left_0_0000110" O R 10550 12700 50 
+F16 "Enable_shift_right_0_0000111" O R 10550 12800 50 
+F17 "Enable_shift_left_1_0001000" O R 10550 12900 50 
+F18 "Enable_shift_right_1_0001001" O R 10550 13000 50 
+F19 "Enable_NOTer_0001010" O R 10550 13100 50 
+F20 "Enable_XORer_0001011" O R 10550 13200 50 
+F21 "Enable_multiplier_0001100" O R 10550 13300 50 
+F22 "Enable_subtraction_0000001" O R 10550 12200 50 
+$EndSheet
+Wire Wire Line
+	13650 12050 11600 12050
+Wire Wire Line
+	11600 12050 11600 12200
+Wire Wire Line
+	11600 12200 10550 12200
+$Sheet
+S 13650 8250 1300 3900
+U 603B78A6
+F0 "ADDer and Subtractor" 50
+F1 "ADDer and Subtractor.sch" 50
+F2 "A_0" I L 13650 8350 50 
+F3 "A_1" I L 13650 8450 50 
+F4 "A_2" I L 13650 8550 50 
+F5 "A_3" I L 13650 8650 50 
+F6 "A_4" I L 13650 8750 50 
+F7 "A_5" I L 13650 8850 50 
+F8 "A_6" I L 13650 8950 50 
+F9 "A_7" I L 13650 9050 50 
+F10 "A_8" I L 13650 9150 50 
+F11 "A_9" I L 13650 9250 50 
+F12 "A_10" I L 13650 9350 50 
+F13 "A_11" I L 13650 9450 50 
+F14 "A_12" I L 13650 9550 50 
+F15 "A_13" I L 13650 9650 50 
+F16 "A_14" I L 13650 9750 50 
+F17 "A_15" I L 13650 9850 50 
+F18 "B_0" I L 13650 10000 50 
+F19 "B_1" I L 13650 10100 50 
+F20 "B_2" I L 13650 10200 50 
+F21 "B_3" I L 13650 10300 50 
+F22 "B_4" I L 13650 10400 50 
+F23 "B_5" I L 13650 10500 50 
+F24 "B_6" I L 13650 10600 50 
+F25 "B_7" I L 13650 10700 50 
+F26 "B_8" I L 13650 10800 50 
+F27 "B_9" I L 13650 10900 50 
+F28 "B_10" I L 13650 11000 50 
+F29 "B_11" I L 13650 11100 50 
+F30 "B_12" I L 13650 11200 50 
+F31 "B_13" I L 13650 11300 50 
+F32 "B_14" I L 13650 11400 50 
+F33 "B_15" I L 13650 11500 50 
+F34 "Bus_A_pull_down" I L 13650 11650 50 
+F35 "Zero_carry_in" I L 13650 11750 50 
+F36 "Enable_adder" I L 13650 11950 50 
+F37 "C_0" T R 14950 8350 50 
+F38 "C_1" T R 14950 8450 50 
+F39 "C_2" T R 14950 8550 50 
+F40 "C_3" T R 14950 8650 50 
+F41 "C_4" T R 14950 8750 50 
+F42 "C_5" T R 14950 8850 50 
+F43 "C_6" T R 14950 8950 50 
+F44 "C_7" T R 14950 9050 50 
+F45 "C_8" T R 14950 9150 50 
+F46 "C_9" T R 14950 9250 50 
+F47 "C_10" T R 14950 9350 50 
+F48 "C_11" T R 14950 9450 50 
+F49 "C_12" T R 14950 9550 50 
+F50 "C_13" T R 14950 9650 50 
+F51 "C_14" T R 14950 9750 50 
+F52 "C_15" T R 14950 9850 50 
+F53 "Enable_subtraction_(A-B)" I L 13650 12050 50 
+F54 "add_and_sub_carry_in" I L 13650 11850 50 
+F55 "adder_and_sub_carry_out" O R 14950 10000 50 
+$EndSheet
 $EndSCHEMATC

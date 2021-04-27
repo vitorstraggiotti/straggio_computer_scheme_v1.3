@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A1 33110 23386
 encoding utf-8
-Sheet 42 60
+Sheet 41 62
 Title "NOTer, Rotate and Shift"
 Date "2021-04-23"
 Rev "V1.3"

@@ -16,3 +16,20 @@ INSTRUCTIONS INTERPRETATION
   ||            \|==> Select operation
   ||
   \|==> ALU or general instruction
+
+ALU instructions:
+
+1 0000000 XXXX XXXX --> Add intruction .....................(Reg_A + Reg_B)
+1 0000001 XXXX XXXX --> Subtract instruction ...............(Reg_A - Reg_B)
+1 0000010 XXXX XXXX --> AND instruction ....................(Reg_A & Reg_B)
+1 0000011 XXXX XXXX --> OR instruction .....................(Reg_A | Reg_B)
+1 0000100 XXXX XXXX --> Rotate left instruction ............(A15,A14,A13..A0 --> A14,A13..A0,A15)
+1 0000101 XXXX XXXX --> Rotate right instruction ...........(A15,A14..A1,A0  --> A0,A15,A14..A1)
+1 0000110 XXXX XXXX --> Shift left with 0 ..................((Reg_A << 1) & 1111111111111110)
+1 0000111 XXXX XXXX --> Shift right with 0 .................((Reg_A >> 1) & 0111111111111111)
+1 0001000 XXXX XXXX --> Shift left with 1 ..................((Reg_A << 1) | 0000000000000001)
+1 0001001 XXXX XXXX --> Shhift right with 1 ................((Reg_A >> 1) | 1000000000000000)
+1 0001010 XXXX XXXX --> NOT instruction ....................(~Reg_A)
+1 0001011 XXXX XXXX --> XOR instruction ....................(Reg_A ^ Reg_B)
+
+1 1111111 XXXX XXXX --> Compare instruction ................ Flag_A_larger(Reg_A > Reg_B), Flag_equal(Reg_A == Reg_B)
