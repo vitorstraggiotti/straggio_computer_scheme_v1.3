@@ -346,5 +346,5 @@ Wire Wire Line
 Text Notes 4450 3800 0    50   ~ 0
 sch = OK\npcb = 
 Text Notes 4450 6950 0    50   ~ 0
-sch = \npcb = 
+sch = OK\npcb = 
 $EndSCHEMATC
